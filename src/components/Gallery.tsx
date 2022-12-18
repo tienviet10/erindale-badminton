@@ -17,7 +17,7 @@ const Gallery = () => {
       className="bg-[#1c185e] flex justify-center w-full text-yellow-300"
       id="Gallery"
     >
-      <section className="w-[90%] px-4 py-20 mx-auto space-y-5 lg:space-y-10 lg:py-24 lg:px-6 overflow-hidden text-gray-700">
+      <section className="w-[90%] px-4 py-24 mx-auto space-y-5 lg:space-y-10 lg:py-24 lg:px-6 overflow-hidden text-gray-700">
         <h2 className="text-3xl lg:text-4xl font-bold text-center text-yellow-300">
           Gallery
         </h2>
