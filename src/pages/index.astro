@@ -1,0 +1,22 @@
+---
+//// Component Imports
+
+import Contact from "../components/Contact";
+import Gallery from "../components/Gallery";
+import Hero from "../components/Hero";
+import Information from "../components/Information";
+import Organizers from "../components/Organizers";
+import Pricing from "../components/Pricing";
+import Layout from "../layout/Layout.astro";
+
+---
+
+<Layout>
+	<Hero/>
+	<Information />
+	<Pricing />
+	<Organizers client:visible/>
+	<Gallery client:visible/>
+	<Contact client:visible/>
+</Layout>
+

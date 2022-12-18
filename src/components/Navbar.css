@@ -1,0 +1,58 @@
+nav {
+  background: #1c185e;
+}
+
+.menuItems {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f0e2e1;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+
+}
+
+nav ul li a::before {
+  content: attr(data-item);
+  font-size: 18px;
+  transition: 0.5s;
+  color: #fde047;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+nav ul li a:hover::before  {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 1024px) {
+  .menuItems{
+    display:none
+  }
+  
+}
+
+@media only screen and (max-width: 1440px) {
+  nav ul li a {
+    font-size: 16px;
+  }
+
+  nav ul li a::before {
+    font-size: 16px;
+  }
+}
