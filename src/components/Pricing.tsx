@@ -14,7 +14,7 @@ const Pricing = () => {
                 </p>
                 <h3 className="text-2xl mb-6">
                   <strong>$ 75</strong>
-                  <small className="text-gray-500 text-sm">/year</small>
+                  <small className="text-gray-900 text-sm">/year</small>
                 </h3>
 
                 {/* <button type="button"
@@ -66,7 +66,7 @@ const Pricing = () => {
                 </p>
                 <h3 className="text-2xl mb-6">
                   <strong>$ 120</strong>
-                  <small className="text-gray-500 text-sm">/year</small>
+                  <small className="text-gray-900 text-sm">/year</small>
                 </h3>
                 {/* <button type="button"
                   className="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full"
@@ -125,7 +125,7 @@ const Pricing = () => {
                 </p>
                 <h3 className="text-2xl mb-6">
                   <strong>$ 5</strong>
-                  <small className="text-gray-500 text-sm">/drop-in</small>
+                  <small className="text-gray-900 text-sm">/drop-in</small>
                 </h3>
               </div>
               <div className="p-6">
