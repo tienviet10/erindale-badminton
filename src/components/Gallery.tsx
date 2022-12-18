@@ -209,6 +209,7 @@ const Gallery = () => {
                 type="button"
                 data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev"
+                aria-label="previous picture"
                 onClick={() => setCurrentPageMobile((prev) => prev - 1)}
               >
                 <span
@@ -240,6 +241,7 @@ const Gallery = () => {
                 type="button"
                 data-bs-target="#carouselExampleControls"
                 data-bs-slide="next"
+                aria-label="next picture"
                 onClick={() => setCurrentPageMobile((prev) => prev + 1)}
               >
                 <span
