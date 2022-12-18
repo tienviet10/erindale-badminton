@@ -42,9 +42,7 @@ const Contact = () => {
                     May I request a refund?
                   </h3>
                   <p className="text-black ">
-                    Once you have purchased either the design, code, or both
-                    packages, you will have access to all of the future updates
-                    based on the roadmap, free of charge.
+                    Membership fees are refundable at any time. The refund paid is less a per member charge of $10 for each evening the club operated prior to when we received the request. Member privileges are non-transferable.
                   </p>
                 </div>
                 <div className="mb-10">
@@ -57,9 +55,7 @@ const Contact = () => {
                     Can I bring kids?
                   </h3>
                   <p className="text-black ">
-                    We're aware of the importance of well qualified support,
-                    that is why we decided that support will only be provided by
-                    the authors that actually worked on this project.
+                    Sure. But they are not allowed to occupy any court for practice, play hitting, etc -- especially if they are under 18 years of age. Our insurance policy does not cover players under 18 years of age, so to allow your kids to play constitutes a serious liability to the club.
                   </p>
                 </div>
                 <div className="">
