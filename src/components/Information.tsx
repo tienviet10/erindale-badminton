@@ -28,7 +28,7 @@ const Information = () => {
                   ></path>
                 </svg>
                 <span className="text-base font-medium leading-tight text-black dark:text-[#1c185e]">
-                  Monday: 8:00pm - 10:00pm (<a className="hover:text-yellow-700" href="https://www.google.ca/maps/place/Erindale+Secondary+School/@43.5389142,-79.668638,17z/data=!4m5!3m4!1s0x882b43ec1f134c83:0x8ac7f897ae4a3667!8m2!3d43.5389376!4d-79.6665244?hl=en">at Erindale Secondary School</a>)
+                  Monday: 8:00pm - 10:00pm (<a className="hover:text-yellow-700 underline" href="https://www.google.ca/maps/place/Erindale+Secondary+School/@43.5389142,-79.668638,17z/data=!4m5!3m4!1s0x882b43ec1f134c83:0x8ac7f897ae4a3667!8m2!3d43.5389376!4d-79.6665244?hl=en">at Erindale Secondary School</a>)
                 </span>
               </li>
               <li className="flex space-x-3">
@@ -45,7 +45,7 @@ const Information = () => {
                   ></path>
                 </svg>
                 <span className="text-base font-medium leading-tight text-black dark:text-[#1c185e]">
-                  Wednesday: 8:15pm - 10:00pm (<a className="hover:text-yellow-700" href="https://goo.gl/maps/nKiGknmUqqUthmyv6">at Loyola Secondary School</a>)
+                  Wednesday: 8:15pm - 10:00pm (<a className="hover:text-yellow-700 underline" href="https://goo.gl/maps/nKiGknmUqqUthmyv6">at Loyola Secondary School</a>)
                 </span>
               </li>
               <li className="flex space-x-3">
@@ -62,7 +62,7 @@ const Information = () => {
                   ></path>
                 </svg>
                 <span className="text-base font-medium leading-tight text-black dark:text-[#1c185e]">
-                  Friday: 6:00pm - 8:00pm (<a className="hover:text-yellow-700" href="https://www.google.com/maps/place/2524+Bromsgrove+Rd,+Mississauga,+ON+L5J+1L8/@43.5037272,-79.6458246,17z/data=!3m1!4b1!4m5!3m4!1s0x882b44836dba4aaf:0x37453752dc3e9b7d!8m2!3d43.5037272!4d-79.6458246">at Clarkson Secondary School</a>)
+                  Friday: 6:00pm - 8:00pm (<a className="hover:text-yellow-700 underline" href="https://www.google.com/maps/place/2524+Bromsgrove+Rd,+Mississauga,+ON+L5J+1L8/@43.5037272,-79.6458246,17z/data=!3m1!4b1!4m5!3m4!1s0x882b44836dba4aaf:0x37453752dc3e9b7d!8m2!3d43.5037272!4d-79.6458246">at Clarkson Secondary School</a>)
                 </span>
               </li>
             </ul>
