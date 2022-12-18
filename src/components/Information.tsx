@@ -12,7 +12,6 @@ const Information = () => {
             </p>
 
             <ul
-              role="list"
               className="space-y-5 border-t border-b border-black my-7 py-7"
             >
               <li className="flex space-x-3">

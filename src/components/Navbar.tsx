@@ -22,7 +22,7 @@ const Navbar = () => {
   return ( 
     <nav className={scrolled || menuExpand ? "fixed w-full flex items-center justify-between flex-wrap p-6 lg:p-2 bg-[#1c185e] z-50" :"fixed w-full flex items-center justify-between flex-wrap p-6 lg:p-2 bg-transparent z-50"}>
       <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <img src={badmintonImg} className="max-h-10 ml-2 lg:ml-6"/>
+        <img src={badmintonImg} className="max-h-10 ml-2 lg:ml-6" alt="Badminton Image"/>
         <a className="font-bold text-xl lg:text-2xl tracking-tight ml-0 lg:ml-2 text-[#fde047]" href="#">Erindale Badminton</a>
       </div>
       <div className="block lg:hidden">

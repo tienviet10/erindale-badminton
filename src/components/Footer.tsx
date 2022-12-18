@@ -5,13 +5,11 @@ const Footer = () => {
       <div className="flex justify-between px-6 pt-6 w-full">
         <div className="text-xl lg:text-2xl h-9 flex flex-col justify-center">Erindale Badminton</div>
         <div className="flex justify-center mb-6 ">
-          <a href="https://www.facebook.com/profile.php?id=100088558296408" className="rounded-full border-2 border-white text-white leading-normal uppercase w-9 h-9 mr-5">
+          <a href="https://www.facebook.com/profile.php?id=100088558296408" className="rounded-full border-2 border-white text-white leading-normal uppercase w-9 h-9 mr-5" aria-label="Facebook">
             <svg aria-hidden="true"
             fill="white"
             className="w-2 h-full mx-auto "
-            role="img"
             viewBox="0 0 320 512"
-            
           >
             <path
               d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
@@ -19,14 +17,14 @@ const Footer = () => {
             </svg>
           </a>
 
-          <a href="https://www.instagram.com/erindale_badminton_club/?next=%2F" className="rounded-full border-2 border-white text-white leading-normal uppercase w-9 h-9">
+          <a href="https://www.instagram.com/erindale_badminton_club/?next=%2F" className="rounded-full border-2 border-white text-white leading-normal uppercase w-9 h-9" aria-label="Instagram">
             <svg aria-hidden="true"
             fill="white"
             focusable="false"
             data-prefix="fab"
             data-icon="instagram"
               className="w-3 h-full mx-auto"
-              role="img"
+
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
             >

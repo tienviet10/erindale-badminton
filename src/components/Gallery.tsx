@@ -2,10 +2,10 @@ import { useState } from "react";
 
 const galleryTabs = ["Club", "Tournament", "Halloween", "Christmas"];
 const imageListMap = {
-  "Club": ["http://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "http://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "http://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "http://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "http://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "http://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg"], 
-  "Tournament": ["http://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "http://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "http://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "http://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "http://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "http://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg"], 
-  "Halloween": ["http://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "http://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "http://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "http://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "http://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "http://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg"], 
-  "Christmas": ["http://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "http://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "http://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "http://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "http://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "http://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg"]
+  "Club": ["https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg"], 
+  "Tournament": ["https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg"], 
+  "Halloween": ["https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg"], 
+  "Christmas": ["https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg"]
 }
 const Gallery = () => {
   const [galleryTab, setGalleryTab] = useState(galleryTabs[0]);
@@ -75,7 +75,6 @@ const Gallery = () => {
                   data-prefix="fas"
                   data-icon="caret-down"
                   className="w-2 ml-2"
-                  role="img"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 320 512"
                 >

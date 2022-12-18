@@ -94,10 +94,11 @@ const Contact = () => {
               >
                 <div className="md:flex items-center mt-12">
                   <div className="w-full md:w-[50%] flex flex-col">
-                    <label className="text-base font-semibold leading-none text-[#1c185e]">
+                    <label htmlFor="firstName" className="text-base font-semibold leading-none text-[#1c185e]">
                       First Name
                     </label>
                     <input
+                    id="firstName"
                       tabIndex={0}
                       arial-label="Please input name"
                       type="name"
@@ -105,10 +106,11 @@ const Contact = () => {
                     />
                   </div>
                   <div className="w-full md:w-[50%] flex flex-col md:ml-6 md:mt-0 mt-4">
-                    <label className="text-base font-semibold leading-none  text-[#1c185e]">
+                    <label htmlFor="lastName" className="text-base font-semibold leading-none  text-[#1c185e]">
                       Last Name
                     </label>
                     <input
+                    id="lastName"
                       tabIndex={0}
                       arial-label="Please input email address"
                       type="name"
@@ -118,22 +120,23 @@ const Contact = () => {
                 </div>
                 <div className="md:flex items-center mt-8">
                   <div className="md:w-[50%] flex flex-col">
-                    <label className="text-base font-semibold leading-none  text-[#1c185e]">
+                    <label htmlFor="email" className="text-base font-semibold leading-none  text-[#1c185e]">
                       Email Address
                     </label>
                     <input
                       tabIndex={0}
-                      role="input"
+                      id="email"
                       arial-label="Please input company name"
                       type="name"
                       className="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-200 border rounded border-gray-200 placeholder-gray-100 "
                     />
                   </div>
                   <div className="md:w-[50%] flex flex-col md:ml-6 md:mt-0 mt-4">
-                    <label className="text-base font-semibold leading-none  text-[#1c185e]">
+                    <label htmlFor="phone" className="text-base font-semibold leading-none  text-[#1c185e]">
                       Phone
                     </label>
                     <input
+                    id="phone"
                       tabIndex={0}
                       arial-label="Please input country name"
                       type="name"
@@ -144,13 +147,13 @@ const Contact = () => {
 
                 <div>
                   <div className="w-full flex flex-col mt-8">
-                    <label className="text-base font-semibold leading-none  text-[#1c185e]">
+                    <label htmlFor="message" className="text-base font-semibold leading-none  text-[#1c185e]">
                       Message
                     </label>
                     <textarea
                       tabIndex={0}
                       aria-label="leave a message"
-                      role="textbox"
+                      id="message"
                       className="h-36 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-200 border rounded border-gray-200 placeholder-gray-100 resize-none"
                       defaultValue={""}
                     />
@@ -160,12 +163,12 @@ const Contact = () => {
                   type="submit"
                   className="py-3 px-5 text-sm font-medium text-center border border-[#1c185e] text-[#1c185e] rounded-lg bg-primary-700 sm:w-fit hover:bg-[#1c185e] hover:text-white focus:ring-4 focus:outline-none focus:ring-primary-300"
                 >
-                  Send message
+                  Send Message
                 </button>
               </form>
-              <div className="mt-12 flex flex-col space-y-5 lg:space-y-10">
-                <div className="text-base font-semibold leading-none  text-[#1c185e]">
-                  Contact Info
+              <div className="mt-12 flex flex-col space-y-5 lg:space-y-6">
+                <div className="text-2xl font-semibold leading-none  text-[#1c185e]">
+                  Additional Info
                 </div>
                 <p>
                   <strong className=" text-[#1c185e]">Email:</strong>{" "}
