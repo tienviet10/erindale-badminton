@@ -1,5 +1,6 @@
 import pill1 from "../assets/pill1.webp";
 import pill2 from "../assets/pill2.webp";
+import pill3 from "../assets/pill3.webp";
 
 const Hero = () => {
   return (
@@ -26,7 +27,7 @@ const Hero = () => {
           <div className="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3 lg:ml-20 justify-center">
             <div className="h-48 flex flex-wrap content-center">
               <div>
-                <img className="mt-28 hidden xl:block" src={pill1}/>
+                <img className="mt-28 hidden xl:block" src={pill3}/>
               </div>
               <div>
                 <img className="inline-block mt-24 md:mt-0 p-8 md:p-0"  src={pill2}/>
