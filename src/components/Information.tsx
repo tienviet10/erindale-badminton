@@ -46,7 +46,7 @@ const Information = () => {
                   ></path>
                 </svg>
                 <span className="text-base font-medium leading-tight text-black dark:text-[#1c185e]">
-                  Wednesday: 8:00pm - 10:00pm (<a className="hover:text-yellow-700" href="https://goo.gl/maps/nKiGknmUqqUthmyv6">at Loyola Secondary School</a>)
+                  Wednesday: 8:15pm - 10:00pm (<a className="hover:text-yellow-700" href="https://goo.gl/maps/nKiGknmUqqUthmyv6">at Loyola Secondary School</a>)
                 </span>
               </li>
               <li className="flex space-x-3">
