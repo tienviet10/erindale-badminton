@@ -1,3 +1,4 @@
+import andrew1 from "../assets/andrew1.webp";
 import tris2 from "../assets/Tris.webp";
 import tris1 from "../assets/Tris1.webp";
 import person2 from "../assets/viet_badminton-2.webp";
@@ -13,7 +14,7 @@ const namePositionMap1 = {
 const namePositionMap2 = {
   "Izabela Ligieza": ["Secretary", person1, person2],
   "Tristan Wu": ["Treasurer", tris1, tris2],
-  "Andrew Lye": ["Equipment Manager", person1, person2]
+  "Andrew Lye": ["Equipment Manager", andrew1, person2]
 }
 
 const Organizers = () => {
