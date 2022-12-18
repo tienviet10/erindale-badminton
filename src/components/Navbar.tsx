@@ -33,25 +33,25 @@ const Navbar = () => {
       {menuExpand ? (
         <div className="absolute top-[80%] left-0 pl-8 pb-8 w-full block flex-grow lg:flex lg:items-center lg:w-auto bg-[#363195] shadow-lg">
           <div className="inline-block text-md px-4 py-2 leading-none text-white mt-4 lg:mt-0">
-            <a href="#" className="block mt-2 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+            <a href="#" className="block mt-2 lg:inline-block lg:mt-0 text-white hover:text-white mr-4" onClick={()=>setMenuExpand(false)}>
               Home
             </a>
-            <a href="#Information" className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+            <a href="#Information" className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-white mr-4" onClick={()=>setMenuExpand(false)}>
               Information
             </a>
-            <a href="#Pricing" className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+            <a href="#Pricing" className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-white mr-4" onClick={()=>setMenuExpand(false)}>
               Pricing
             </a>
-            <a href="#Organizer" className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+            <a href="#Organizer" className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-white mr-4" onClick={()=>setMenuExpand(false)}>
               Organizers
             </a>
-            <a href="#Gallery" className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+            <a href="#Gallery" className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-white mr-4" onClick={()=>setMenuExpand(false)}>
               Gallery
             </a>
-            <a href="#FAQ" className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-white">
+            <a href="#FAQ" className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-white" onClick={()=>setMenuExpand(false)}>
               FAQ
             </a>
-            <a href="#Contact" className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-white">
+            <a href="#Contact" className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-white" onClick={()=>setMenuExpand(false)}>
               Contact
             </a>
           </div>

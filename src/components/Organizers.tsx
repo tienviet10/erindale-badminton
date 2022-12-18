@@ -1,7 +1,7 @@
 import tris2 from "../assets/Tris.webp";
 import tris1 from "../assets/Tris1.webp";
-import person1 from "../assets/viet_badminton.png";
-import person2 from "../assets/viet_badminton.webp";
+import person2 from "../assets/viet_badminton-2.webp";
+import person1 from "../assets/viet_badminton.webp";
 import ImageIndividual from "./ImageIndividual";
 
 const namePositionMap1 = {

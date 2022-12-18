@@ -124,6 +124,7 @@ const Gallery = () => {
                           onClick={() => {
                             setMobileDropdown(false);
                             setGalleryTab(tab);
+                            setCurrentPageMobile(0);
                           }}
                         >
                           {tab}
