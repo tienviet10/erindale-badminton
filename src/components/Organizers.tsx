@@ -2,18 +2,22 @@ import andrew1 from "../assets/andrew1.webp";
 import andrew2 from "../assets/andrew2.webp";
 import tris2 from "../assets/Tris.webp";
 import tris1 from "../assets/Tris1.webp";
-import person2 from "../assets/viet_badminton-2.webp";
-import person1 from "../assets/viet_badminton.webp";
+import viet1 from "../assets/viet1.webp";
+import viet2 from "../assets/viet2.webp";
+import viet3 from "../assets/viet3.webp";
+import viet4 from "../assets/viet4.webp";
+import viet5 from "../assets/viet5.webp";
+import person2 from "../assets/viet_badminton.webp";
 import ImageIndividual from "./ImageIndividual";
 
 const namePositionMap1 = {
-  "Sara Gautier": ["President", person1, person2],
-  "Michael Ho": ["Vice President", person1, person2],
+  "Sara Gautier": ["President", viet4, viet1],
+  "Michael Ho": ["Vice President", viet5, viet2],
 
 }
 
 const namePositionMap2 = {
-  "Izabela Ligieza": ["Secretary", person1, person2],
+  "Izabela Ligieza": ["Secretary", viet3, person2],
   "Tristan Wu": ["Treasurer", tris1, tris2],
   "Andrew Lye": ["Equipment Manager", andrew1, andrew2]
 }

@@ -5,7 +5,7 @@ import pill3 from "../assets/pill3.webp";
 const Hero = () => {
   return (
     <section>
-      <div className="bg-[#1c185e] text-white py-20">
+      <div className="bg-[#1c1854] text-white py-20">
         <div className="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
           <div className="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
             <h1 className="text-2xl md:text-4xl pt-2 pb-2 tracking-loose text-yellow-300">Welcome!</h1>
