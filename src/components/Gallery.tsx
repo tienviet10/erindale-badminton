@@ -22,7 +22,7 @@ const Gallery = () => {
           Gallery
         </h2>
         <div className="hidden lg:flex items-center justify-center">
-          <div className="flex space-x-4 bg-[#1c185e] p-2 overflow-hidden overflow-x-scroll w-full justify-center">
+          <div className="flex space-x-4 bg-[#1c185e] p-2 overflow-hidden w-full justify-center">
             {galleryTabs.map((tab) => {
               return (
                 <div
