@@ -53,7 +53,7 @@ const Gallery = () => {
                 py-2.5
                 text-white
                 font-medium
-                text-sm
+                text-md
                 leading-tight
                 transition
                 duration-150
