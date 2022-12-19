@@ -2,17 +2,17 @@ import andrew1 from "../assets/andrew1.webp";
 import andrew2 from "../assets/andrew2.webp";
 import izzy1 from "../assets/izzy1.webp";
 import izzy2 from "../assets/izzy2.webp";
+import michael1 from "../assets/michael1.webp";
 import tris2 from "../assets/Tris.webp";
 import tris1 from "../assets/Tris1.webp";
 import viet1 from "../assets/viet1.webp";
-import viet2 from "../assets/viet2.webp";
 import viet3 from "../assets/viet3.webp";
 import viet5 from "../assets/viet5.webp";
 import ImageIndividual from "./ImageIndividual";
 
 const namePositionMap1 = {
   "Sara Gautier": ["President", viet1, viet3, ],
-  "Michael Ho": ["Vice President", viet5, viet2],
+  "Michael Ho": ["Vice President", michael1, viet5,],
 
 }
 
