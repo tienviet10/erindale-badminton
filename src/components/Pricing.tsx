@@ -163,6 +163,14 @@ const Pricing = () => {
             </div>
           </div>
         </div>
+
+        <h2 className="text-3xl lg:text-4xl font-bold text-center text-yellow-300">How to join:</h2>
+        <div className="w-full flex flex-row justify-center text-white">
+          <div className="max-w-7xl text-xl text-justify py-10 lg:py-0">     
+            Our club accepts new members from our waiting list. If you wish to join us, please send us an email to <a className="underline text-yellow-300" href="mailto:erindale.badminton@gmail.com?subject=Erindale Badminton Club Registration Request!">erindale.badminton@gmail.com</a>. We will inform you when we have a spot for you. Please refer to the registration form for more information and note that membership is accepted only upon receipt of both payment of fee and registration form. Download and fill in this <a className="underline font-semibold text-yellow-300" href="https://erindalebadminton.com/EBC_Registration_2022_to_2023.pdf" target={"_blank"}>registration form</a> for membership.
+          </div>
+        </div>
+
       </section>
     </div>
   )

@@ -274,7 +274,7 @@ const Contact = () => {
                     8-10pm
                   </p>
                   <p>Erindale Secondary School</p>
-                  <p>2021 Dundas St W,Mississauga, ON L5K 1R2</p>
+                  <p>2021 Dundas St W, Mississauga, ON L5K 1R2</p>
                 </div>
                 <div>
                   <p>
