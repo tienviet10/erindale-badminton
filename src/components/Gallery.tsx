@@ -1,11 +1,22 @@
 import { useState } from "react";
+import ChristmasFood4 from "../assets/christmas_food1.webp";
+import ChristmasFood1 from "../assets/christmas_food2.webp";
+import ChristmasFood2 from "../assets/christmas_food3.webp";
+import ChristmasFood3 from "../assets/christmas_food4.webp";
+import ChristmasGroup1 from "../assets/christmas_group1.webp";
+import ChristmasGroup2 from "../assets/christmas_group2.webp";
+import ChristmasGroup3 from "../assets/christmas_group3.webp";
+import ChristmasGroup4 from "../assets/christmas_group4.webp";
+import ClubGroup1 from "../assets/club-badminton1.webp";
+import ClubGroup2 from "../assets/club-badminton2.webp";
+import ClubGroup3 from "../assets/club_badminton3.webp";
 
-const galleryTabs = ["Club", "Tournament", "Halloween", "Christmas"];
+const galleryTabs = ["Christmas", "Club", "Tournament", "Halloween" ];
 const imageListMap = {
-  "Club": ["https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg"], 
+  "Christmas": [ChristmasFood3, ChristmasFood1, ChristmasGroup1, ChristmasGroup4, ChristmasFood4, ChristmasFood2],
+  "Club": [ChristmasGroup2, ClubGroup1, ClubGroup3, ChristmasGroup3, "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", ClubGroup2], 
   "Tournament": ["https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg"], 
   "Halloween": ["https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg"], 
-  "Christmas": ["https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg"]
 }
 const Gallery = () => {
   const [galleryTab, setGalleryTab] = useState(galleryTabs[0]);
