@@ -9,14 +9,22 @@ import ChristmasGroup3 from "../assets/christmas_group3.webp";
 import ChristmasGroup4 from "../assets/christmas_group4.webp";
 import ClubGroup1 from "../assets/club-badminton1.webp";
 import ClubGroup2 from "../assets/club-badminton2.webp";
+import ClubGroup4 from "../assets/club-badminton4.webp";
 import ClubGroup3 from "../assets/club_badminton3.webp";
+import Halloween1 from "../assets/Halloween1.webp";
+import Halloween2 from "../assets/Halloween2.webp";
+import Halloween3 from "../assets/Halloween3.webp";
+import Halloween4 from "../assets/Halloween4.webp";
+import Halloween5 from "../assets/Halloween5.webp";
+import Halloween6 from "../assets/Halloween6.webp";
 
-const galleryTabs = ["Christmas", "Club", "Tournament", "Halloween" ];
+// const galleryTabs = ["Christmas", "Club", "Tournament", "Halloween" ];
+const galleryTabs = ["Christmas", "Club", "Halloween" ];
 const imageListMap = {
   "Christmas": [ChristmasFood3, ChristmasFood1, ChristmasGroup1, ChristmasGroup4, ChristmasFood4, ChristmasFood2],
-  "Club": [ChristmasGroup2, ClubGroup1, ClubGroup3, ChristmasGroup3, "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", ClubGroup2], 
-  "Tournament": ["https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg"], 
-  "Halloween": ["https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg", "https://www.erindalebadminton.com/albums/2014%20Halloween/DSC00977.jpg"], 
+  "Club": [ChristmasGroup2, ClubGroup1, ClubGroup3, ChristmasGroup3, ClubGroup4, ClubGroup2], 
+  // "Tournament": ["https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg"], 
+  "Halloween": [Halloween6, Halloween1, Halloween2, Halloween3, Halloween5, Halloween4], 
 }
 const Gallery = () => {
   const [galleryTab, setGalleryTab] = useState(galleryTabs[0]);
