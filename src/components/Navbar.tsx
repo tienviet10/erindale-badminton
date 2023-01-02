@@ -32,7 +32,7 @@ const Navbar = () => {
       </div>
       {menuExpand ? (
         <div className="absolute top-[80%] left-0 pl-8 pb-8 w-full block flex-grow lg:flex lg:items-center lg:w-auto bg-[#363195] shadow-lg">
-          <div className="inline-block text-md px-4 py-2 leading-none text-white mt-4 lg:mt-0">
+          <div className="inline-block text-lg px-4 py-2 leading-none text-white mt-4 lg:mt-0">
             <a href="#" className="block mt-2 lg:inline-block lg:mt-0 text-white hover:text-white mr-4" onClick={()=>setMenuExpand(false)}>
               Home
             </a>

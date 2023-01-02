@@ -60,7 +60,7 @@ const Contact = () => {
             <div className=" pt-8 text-left border-t border-gray-900 ">
               <div>
                 <div className="mb-10">
-                  <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-[#1c185e]">
+                  <h3 className="flex items-center mb-4 text-xl font-medium text-gray-900 dark:text-[#1c185e]">
                     {/* <svg className="flex-shrink-0 mr-2 w-5 h-5 text-black " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clipRule="evenodd"></path></svg> */}
                     <img
                       className="flex-shrink-0 mr-2 w-5 h-5 text-black"
@@ -69,19 +69,18 @@ const Contact = () => {
                     />
                     What do my membership fees cover?
                   </h3>
-                  <ul className="list-disc ml-4">
+                  <ul className="list-disc ml-4 text-lg">
                     <li>
                       Access to our nine courts for the entire play season
                     </li>
                     <li>Birds (we play with Mavis 300 plastic birds)</li>
                     <li>
-                      Treat nights (Halloween, Christmas, etc), the end of year
-                      wing night, club tournament
+                      4 treat nights, in house tournament, and year end wing night.
                     </li>
                   </ul>
                 </div>
                 <div className="mb-10">
-                  <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-[#1c185e]">
+                  <h3 className="flex items-center mb-4 text-xl font-medium text-gray-900 dark:text-[#1c185e]">
                     <img
                       className="flex-shrink-0 mr-2 w-5 h-5 text-black"
                       src={infoIcon}
@@ -89,7 +88,7 @@ const Contact = () => {
                     />
                     May I request a refund?
                   </h3>
-                  <p className="text-black ">
+                  <p className="text-black text-lg">
                     Membership fees are refundable at any time. The refund paid
                     is less a per member charge of $10 for each evening the club
                     operated prior to when we received the request. Member
@@ -97,7 +96,7 @@ const Contact = () => {
                   </p>
                 </div>
                 <div className="mb-10">
-                  <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-[#1c185e]">
+                  <h3 className="flex items-center mb-4 text-xl font-medium text-gray-900 dark:text-[#1c185e]">
                     <img
                       className="flex-shrink-0 mr-2 w-5 h-5 text-black"
                       src={infoIcon}
@@ -105,7 +104,7 @@ const Contact = () => {
                     />
                     Can I bring kids?
                   </h3>
-                  <p className="text-black ">
+                  <p className="text-black text-lg">
                     Sure. But they are not allowed to occupy any court for
                     practice, play hitting, etc -- especially if they are under
                     18 years of age. Our insurance policy does not cover players
@@ -114,7 +113,7 @@ const Contact = () => {
                   </p>
                 </div>
                 <div className="">
-                  <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-[#1c185e]">
+                  <h3 className="flex items-center mb-4 text-xl font-medium text-gray-900 dark:text-[#1c185e]">
                     <img
                       className="flex-shrink-0 mr-2 w-5 h-5 text-black"
                       src={infoIcon}
@@ -122,7 +121,7 @@ const Contact = () => {
                     />
                     What do you do with my email address?
                   </h3>
-                  <p className="text-black ">
+                  <p className="text-black text-lg">
                     All information about our club is available on our website.
                     From time-to-time, we will send out notices via email, as a
                     courtesy, to remind you of upcoming events. It is your
@@ -242,7 +241,7 @@ const Contact = () => {
                       aria-label="leave a message"
                       id="message"
                       name="message"
-                      className="h-36 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-200 border rounded border-gray-200 placeholder-gray-100 resize-none"
+                      className="h-36 md:h-60 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-200 border rounded border-gray-200 placeholder-gray-100 resize-none"
                       onChange={(e) => changeContactInfo(e)}
                       value={contactInfo.message}
                       required
@@ -262,11 +261,28 @@ const Contact = () => {
                 <div className="text-2xl font-semibold leading-none  text-[#1c185e]">
                   Additional Info
                 </div>
-                <p>
+                <p className="text-lg">
                   <strong className=" text-[#1c185e]">Email:</strong>{" "}
                   erindale.badminton@gmail.com
                 </p>
-                <div>
+                <div className="text-lg">
+                  <p>
+                    <strong className=" text-[#1c185e]">
+                      Facebook:{" "}
+                    </strong>
+                    <a className="underline" href="https://www.facebook.com/profile.php?id=100088558296408"> Erindale Badminton Club Facebook</a>
+                  </p>
+                </div>
+                <div className="text-lg">
+                  <p>
+                    <strong className=" text-[#1c185e]">
+                      Instagram:{" "}
+                    </strong>
+                    <a className="underline" href="https://www.instagram.com/erindale_badminton_club/?next=%2F">Erindale Badminton Club Instagram</a>
+                  </p>
+
+                </div>
+                <div className="text-lg">
                   <p>
                     <strong className=" text-[#1c185e]">
                       Monday Location:{" "}
@@ -276,7 +292,7 @@ const Contact = () => {
                   <p>Erindale Secondary School</p>
                   <p>2021 Dundas St W, Mississauga, ON L5K 1R2</p>
                 </div>
-                <div>
+                <div className="text-lg">
                   <p>
                     <strong className=" text-[#1c185e]">
                       Wednesday Location:{" "}
@@ -286,7 +302,7 @@ const Contact = () => {
                   <p>Loyola Catholic Secondary School</p>
                   <p>4010 Sladeview Cres, Mississauga, ON L5L 6B1</p>
                 </div>
-                <div>
+                <div className="text-lg">
                   <p>
                     <strong className=" text-[#1c185e]">
                       Friday Location:{" "}

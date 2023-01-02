@@ -48,8 +48,8 @@ const Gallery = () => {
                   key={tab}
                   className={
                     tab === galleryTab
-                      ? "inline-block px-4 py-2 font-medium border-yellow-300 duration-150 ease-in border-b text-yellow-300 cursor-pointer"
-                      : "inline-block px-4 py-2 font-medium text-white border-yellow-300 duration-150 ease-in hover:border-b hover:text-yellow-300 cursor-pointer"
+                      ? "inline-block px-4 py-2 font-medium border-yellow-300 duration-150 ease-in border-b text-lg text-yellow-300 cursor-pointer"
+                      : "inline-block px-4 py-2 font-medium text-white text-lg border-yellow-300 duration-150 ease-in hover:border-b hover:text-yellow-300 cursor-pointer"
                   }
                   onClick={() => setGalleryTab(tab)}
                 >
