@@ -270,7 +270,7 @@ const Contact = () => {
                     <strong className=" text-[#1c185e]">
                       Facebook:{" "}
                     </strong>
-                    <a className="underline" href="https://www.facebook.com/profile.php?id=100088558296408"> Erindale Badminton Club Facebook</a>
+                    <a className="underline" href="https://www.facebook.com/profile.php?id=100088558296408">Club Facebook</a>
                   </p>
                 </div>
                 <div className="text-lg">
@@ -278,7 +278,7 @@ const Contact = () => {
                     <strong className=" text-[#1c185e]">
                       Instagram:{" "}
                     </strong>
-                    <a className="underline" href="https://www.instagram.com/erindale_badminton_club/?next=%2F">Erindale Badminton Club Instagram</a>
+                    <a className="underline" href="https://www.instagram.com/erindale_badminton_club/?next=%2F">Club Instagram</a>
                   </p>
 
                 </div>
