@@ -263,7 +263,7 @@ const Contact = () => {
                 </div>
                 <p className="text-lg">
                   <strong className=" text-[#1c185e]">Email:</strong>{" "}
-                  erindale.badminton@gmail.com
+                  <a className="underline" href="mailto:erindale.badminton@gmail.com?subject=Questions">erindale.badminton@gmail.com</a>
                 </p>
                 <div className="text-lg">
                   <p>
