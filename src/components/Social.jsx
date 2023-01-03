@@ -1,6 +1,7 @@
 import React from "react";
-import { FaInstagram, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
+import emailIcon from "../assets/email.webp";
+import facebookIcon from "../assets/facebook.webp";
+import instagramIcon from "../assets/instagram.webp";
 import "./Social.css";
 
 const Social = () => {
@@ -19,7 +20,7 @@ const Social = () => {
         }
       >
         <div className="customTextItems">Instagram</div>
-        <FaInstagram className="mr-3" size={30} />
+        <img className="h-7 mr-3" src={instagramIcon} alt="Instagram icon" />
       </div>
       <div
         className="customSocialItems bg-[#3b5998]"
@@ -30,7 +31,7 @@ const Social = () => {
         }
       >
         <div className="customTextItems">Facebook</div>
-        <FaLinkedin className="mr-3" size={30} />
+        <img className="h-7 mr-3" src={facebookIcon} alt="Facebook icon" />
       </div>
       {/* <div
         className="customSocialItems bg-[#565f69]"
@@ -46,7 +47,7 @@ const Social = () => {
         }
       >
         <div className="customTextItems">Email</div>
-        <HiOutlineMail className="mr-3" size={30} />
+        <img className="w-7 mr-3" src={emailIcon} alt="Facebook icon" />
       </div>
     </div>
   );
