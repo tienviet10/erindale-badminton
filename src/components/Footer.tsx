@@ -1,9 +1,11 @@
+import badmintonImg from "../assets/erindale-badminton-yellow.webp";
 
 const Footer = () => {
   return (
     <footer className="text-center bg-[#1c185e] text-white">
       <div className="flex justify-between px-6 pt-6 w-full">
-        <div className="text-xl lg:text-2xl h-9 flex flex-col justify-center text-yellow-300 font-bold">Erindale Badminton</div>
+        <img src={badmintonImg} className="max-h-10 ml-2 lg:ml-10" alt="Badminton Image"/>
+        {/* <div className="text-xl lg:text-2xl h-9 flex flex-col justify-center text-yellow-300 font-bold">Erindale Badminton</div> */}
         <div className="flex justify-center mb-6 ">
           <a href="https://www.facebook.com/profile.php?id=100088558296408" className="rounded-full border-2 border-white text-white leading-normal uppercase w-9 h-9 mr-5" aria-label="Facebook">
             <svg aria-hidden="true"
