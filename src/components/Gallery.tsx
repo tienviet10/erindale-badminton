@@ -33,23 +33,23 @@ const Gallery = () => {
 
   return (
     <div
-      className="bg-[#1c185e] flex justify-center w-full text-yellow-300"
+      className="bg-application-color flex justify-center w-full text-text-application-color"
       id="Gallery"
     >
       <section className="w-[90%] px-4 py-24 mx-auto space-y-5 lg:space-y-10 lg:py-24 lg:px-6 overflow-hidden text-gray-700">
-        <h2 className="text-3xl lg:text-4xl font-bold text-center text-yellow-300">
+        <h2 className="text-3xl lg:text-4xl font-bold text-center text-text-application-color">
           Gallery
         </h2>
         <div className="hidden lg:flex items-center justify-center">
-          <div className="flex space-x-4 bg-[#1c185e] p-2 overflow-hidden w-full justify-center">
+          <div className="flex space-x-4 bg-application-color p-2 overflow-hidden w-full justify-center">
             {galleryTabs.map((tab) => {
               return (
                 <div
                   key={tab}
                   className={
                     tab === galleryTab
-                      ? "inline-block px-4 py-2 font-medium border-yellow-300 duration-150 ease-in border-b text-lg text-yellow-300 cursor-pointer"
-                      : "inline-block px-4 py-2 font-medium text-white text-lg border-yellow-300 duration-150 ease-in hover:border-b hover:text-yellow-300 cursor-pointer"
+                      ? "inline-block px-4 py-2 font-medium border-text-application-color duration-150 ease-in border-b text-lg text-text-application-color cursor-pointer"
+                      : "inline-block px-4 py-2 font-medium text-white text-lg border-text-application-color duration-150 ease-in hover:border-b hover:text-text-application-color cursor-pointer"
                   }
                   onClick={() => setGalleryTab(tab)}
                 >
