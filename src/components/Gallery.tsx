@@ -237,7 +237,7 @@ const Gallery = () => {
                 ></span>
                 <span className="visually-hidden">
                   <svg
-                    className="h-8 w-8 font-bold text-gray-500"
+                    className="h-8 w-8 font-bold text-white"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -269,7 +269,7 @@ const Gallery = () => {
                 ></span>
                 <span className="visually-hidden">
                   <svg
-                    className="h-8 w-8 font-bold text-gray-500"
+                    className="h-8 w-8 font-bold text-white"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
