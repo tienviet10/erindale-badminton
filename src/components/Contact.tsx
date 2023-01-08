@@ -70,7 +70,7 @@ const Contact = () => {
                       htmlFor="firstName"
                       className="text-base font-semibold leading-none text-application-color"
                     >
-                      First Name
+                      First Name*
                     </label>
                     <input
                       id="firstName"
@@ -90,7 +90,7 @@ const Contact = () => {
                       htmlFor="lastName"
                       className="text-base font-semibold leading-none  text-application-color"
                     >
-                      Last Name
+                      Last Name*
                     </label>
                     <input
                       id="lastName"
@@ -112,7 +112,7 @@ const Contact = () => {
                       htmlFor="email"
                       className="text-base font-semibold leading-none  text-application-color"
                     >
-                      Email Address
+                      Email Address*
                     </label>
                     <input
                       tabIndex={0}
@@ -154,7 +154,7 @@ const Contact = () => {
                       htmlFor="message"
                       className="text-base font-semibold leading-none  text-application-color"
                     >
-                      Message
+                      Message*
                     </label>
                     <textarea
                       autoComplete="off"
