@@ -26,7 +26,7 @@ const Social = () => {
         className="customSocialItems bg-[#3b5998]"
         onClick={() =>
           openInNewTab(
-            "https://www.facebook.com/profile.php?id=100088558296408/"
+            "https://www.facebook.com/profile.php?id=100088558296408"
           )
         }
       >
