@@ -28,7 +28,7 @@ const Contact = () => {
       e.preventDefault();
       setSubmitButtonText("Sending");
       try {
-        await fetch("", {
+        await fetch("https://getform.io/f/05849952-fe73-4860-994d-9dcb33ee3da0", {
           method: "post",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -60,7 +60,7 @@ const Contact = () => {
             </h2>
             <div className="flex flex-col border-t border-gray-900 mt-8 lg:flex-row">
               <form
-                action="https://getform.io/f/05849952-fe73-4860-994d-9dcb33ee3da0"
+                //action=""
                 className="space-y-8 lg:mb-8 w-full lg:w-[70%] mr-0 lg:mr-10 "
                 method="POST"
               >
