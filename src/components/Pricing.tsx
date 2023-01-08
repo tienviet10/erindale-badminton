@@ -171,8 +171,6 @@ const Pricing = () => {
               </div>
             </div>
           </div>
-
-
         </div>
 
         <h2 className="text-3xl lg:text-4xl font-bold text-center text-text-application-color">How to join:</h2>

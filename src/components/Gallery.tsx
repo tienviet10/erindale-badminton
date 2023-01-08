@@ -66,22 +66,22 @@ const Gallery = () => {
               <button
                 onClick={() => setMobileDropdown((prev) => !prev)}
                 className="
-                dropdown-toggle
-                min-w-[150px]
-                px-6
-                py-2.5
-                text-white
-                font-medium
-                text-md
-                leading-tight
-                transition
-                duration-150
-                ease-in-out
-                flex
-                items-center
-                whitespace-nowrap
-                justify-center
-              "
+              dropdown-toggle
+              min-w-[150px]
+              px-6
+              py-2.5
+              text-white
+              font-medium
+              text-md
+              leading-tight
+              transition
+              duration-150
+              ease-in-out
+              flex
+              items-center
+              whitespace-nowrap
+              justify-center
+            "
                 type="button"
                 id="dropdownMenuButton1"
                 data-bs-toggle="dropdown"
@@ -106,21 +106,21 @@ const Gallery = () => {
               {mobileDropdown ? (
                 <ul
                   className="
-                dropdown-menu
-                w-[100%]
-                absolute
-                bg-white
-                text-base
-                z-10
-                float-left
-                py-2
-                list-none
-                text-left
-                mt-1
-                m-0
-                bg-clip-padding
-                border-none
-              "
+              dropdown-menu
+              w-[100%]
+              absolute
+              bg-white
+              text-base
+              z-10
+              float-left
+              py-2
+              list-none
+              text-left
+              mt-1
+              m-0
+              bg-clip-padding
+              border-none
+            "
                   aria-labelledby="dropdownMenuButton1"
                 >
                   {galleryTabs.map((tab) => {
@@ -128,18 +128,18 @@ const Gallery = () => {
                       <li key={tab}>
                         <div
                           className="
-                      dropdown-item
-                      text-sm
-                      py-2
-                      px-4
-                      font-normal
-                      block
-                      w-full
-                      whitespace-nowrap
-                      bg-transparent
-                      text-gray-700
-                      hover:bg-gray-100
-                    "
+                    dropdown-item
+                    text-sm
+                    py-2
+                    px-4
+                    font-normal
+                    block
+                    w-full
+                    whitespace-nowrap
+                    bg-transparent
+                    text-gray-700
+                    hover:bg-gray-100
+                  "
                           onClick={() => {
                             setMobileDropdown(false);
                             setGalleryTab(tab);
@@ -222,7 +222,7 @@ const Gallery = () => {
                 />
               </div>
             </div>
-            {currentPageMobile > 0 && (
+            {/* {currentPageMobile > 0 && (
               <button
                 className="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
                 type="button"
@@ -252,9 +252,45 @@ const Gallery = () => {
                   </svg>
                 </span>
               </button>
-            )}
+            )} */}
 
-            {currentPageMobile < imageListMap[galleryTab].length - 1 && (
+            <button
+              className="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+              aria-label="previous picture"
+              onClick={() =>
+                setCurrentPageMobile((prev) =>
+                  currentPageMobile > 0
+                    ? prev - 1
+                    : imageListMap[galleryTab].length - 1
+                )
+              }
+            >
+              <span
+                className="carousel-control-prev-icon inline-block bg-no-repeat"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">
+                <svg
+                  className="h-8 w-8 font-bold text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2.5"
+                    d="M15 19l-7-7 7-7"
+                  ></path>
+                </svg>
+              </span>
+            </button>
+
+            {/* {currentPageMobile < imageListMap[galleryTab].length - 1 && (
               <button
                 className="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
                 type="button"
@@ -284,7 +320,41 @@ const Gallery = () => {
                   </svg>
                 </span>
               </button>
-            )}
+            )} */}
+
+            <button
+              className="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+              aria-label="next picture"
+              onClick={() =>
+                setCurrentPageMobile((prev) =>
+                  imageListMap[galleryTab].length - 1 > prev ? prev + 1 : 0
+                )
+              }
+            >
+              <span
+                className="carousel-control-next-icon inline-block bg-no-repeat"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">
+                <svg
+                  className="h-8 w-8 font-bold text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2.5"
+                    d="M9 5l7 7-7 7"
+                  ></path>
+                </svg>
+              </span>
+            </button>
           </div>
         </div>
       </section>
