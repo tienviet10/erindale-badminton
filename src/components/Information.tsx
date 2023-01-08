@@ -1,7 +1,7 @@
 
 const Information = () => {
   return (
-    <section className="bg-gray-100" id="Information">
+    <section className="bg-gray-100" id="Locations">
       <div className="max-w-screen-lg px-6 py-24 mx-auto space-y-12 lg:space-y-20">
           <div className="sm:text-lg text-black">
             <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-black dark:text-application-color">

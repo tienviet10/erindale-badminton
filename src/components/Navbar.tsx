@@ -37,8 +37,8 @@ const Navbar = () => {
             <a href="#" className="block mt-2 lg:inline-block lg:mt-0 text-white hover:text-white mr-4" onClick={()=>setMenuExpand(false)}>
               Home
             </a>
-            <a href="#Information" className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-white mr-4" onClick={()=>setMenuExpand(false)}>
-              Information
+            <a href="#Locations" className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-white mr-4" onClick={()=>setMenuExpand(false)}>
+              Locations
             </a>
             <a href="#Pricing" className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-white mr-4" onClick={()=>setMenuExpand(false)}>
               Pricing
@@ -60,7 +60,7 @@ const Navbar = () => {
       ): (
         <ul className="menuItems">
           <li><a href='#' data-item='Home'>Home</a></li>
-          <li><a href='#Information' data-item='Information'>Information</a></li>
+          <li><a href='#Locations' data-item='Locations'>Locations</a></li>
           <li><a href='#Pricing' data-item='Pricing'>Pricing</a></li>
           <li><a href='#Organizer' data-item='Organizers'>Organizers</a></li>
           <li><a href='#Gallery' data-item='Gallery'>Gallery</a></li>
