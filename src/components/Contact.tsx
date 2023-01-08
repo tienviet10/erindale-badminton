@@ -73,13 +73,13 @@ const Contact = () => {
                     <li>
                       Access to our nine courts for the entire play season
                     </li>
-                    <li>Birds (we play with Mavis 300 plastic birds)</li>
+                    <li>We provide Mavis 300 plastic shuttles. Feather shuttles may be used at members discretion but are not provided by EBC.</li>
                     <li>
-                      4 treat nights, in house tournament, and year end party.
+                      4 social event nights, in house tournament, and year end party.
                     </li>
                   </ul>
                 </div>
-                <div className="mb-10">
+                {/* <div className="mb-10">
                   <h3 className="flex items-center mb-4 text-xl font-medium text-gray-900 dark:text-application-color">
                     <img
                       className="flex-shrink-0 mr-2 w-5 h-5 text-black"
@@ -94,7 +94,7 @@ const Contact = () => {
                     operated prior to when we received the request. Member
                     privileges are non-transferable.
                   </p>
-                </div>
+                </div> */}
                 <div className="mb-10">
                   <h3 className="flex items-center mb-4 text-xl font-medium text-gray-900 dark:text-application-color">
                     <img
