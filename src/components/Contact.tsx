@@ -75,7 +75,7 @@ const Contact = () => {
                     </li>
                     <li>Birds (we play with Mavis 300 plastic birds)</li>
                     <li>
-                      4 treat nights, in house tournament, and year end wing night.
+                      4 treat nights, in house tournament, and year end party.
                     </li>
                   </ul>
                 </div>
