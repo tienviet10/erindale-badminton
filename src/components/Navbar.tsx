@@ -37,8 +37,8 @@ const Navbar = () => {
             <a href="#" className="block mt-2 lg:inline-block lg:mt-0 text-white hover:text-white mr-4" onClick={()=>setMenuExpand(false)}>
               Home
             </a>
-            <a href="#Locations" className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-white mr-4" onClick={()=>setMenuExpand(false)}>
-              Locations
+            <a href="#Benefits" className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-white mr-4" onClick={()=>setMenuExpand(false)}>
+              Benefits
             </a>
             <a href="#Pricing" className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-white mr-4" onClick={()=>setMenuExpand(false)}>
               Pricing
@@ -52,6 +52,9 @@ const Navbar = () => {
             <a href="#FAQ" className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-white" onClick={()=>setMenuExpand(false)}>
               FAQ
             </a>
+            <a href="#Locations" className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-white mr-4" onClick={()=>setMenuExpand(false)}>
+              Locations
+            </a>
             <a href="#Contact" className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-white" onClick={()=>setMenuExpand(false)}>
               Contact
             </a>
@@ -60,11 +63,12 @@ const Navbar = () => {
       ): (
         <ul className="menuItems">
           <li><a href='#' data-item='Home'>Home</a></li>
-          <li><a href='#Locations' data-item='Locations'>Locations</a></li>
+          <li><a href='#Benefits' data-item='Benefits'>Benefits</a></li>
           <li><a href='#Pricing' data-item='Pricing'>Pricing</a></li>
           <li><a href='#Organizer' data-item='Organizers'>Organizers</a></li>
           <li><a href='#Gallery' data-item='Gallery'>Gallery</a></li>
           <li><a href='#FAQ' data-item='FAQ'>FAQ</a></li>
+          <li><a href='#Locations' data-item='Locations'>Locations</a></li>
           <li><a href='#Contact' data-item='Contact'>Contact</a></li>
         </ul>        
       )}

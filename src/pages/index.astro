@@ -1,7 +1,9 @@
 ---
 //// Component Imports
 
+import Benefits from "../components/Benefits";
 import Contact from "../components/Contact";
+import FQA from "../components/FQA";
 import Gallery from "../components/Gallery";
 import Hero from "../components/Hero";
 import Information from "../components/Information";
@@ -14,10 +16,12 @@ import Layout from "../layout/Layout.astro";
 
 <Layout>
 	<Hero/>
-	<Information />
+	<Benefits />
 	<Pricing />
 	<Organizers client:visible/>
 	<Gallery client:visible/>
+	<FQA />
+	<Information />
 	<Contact client:visible/>
 	<Social client:visible/>
 </Layout>
