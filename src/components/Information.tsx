@@ -67,7 +67,7 @@ const Information = () => {
               </li>
             </ul>
             <p className="mb-2 font-light text-md">
-              * Guests are welcome to join on Wednesday and Friday. See the fee below!
+              * Guests are welcome to join on Wednesday and Friday. See the fee in the Pricing section!
             </p>
           </div>
   
