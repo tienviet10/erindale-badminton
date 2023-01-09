@@ -172,7 +172,7 @@ const Contact = () => {
                 <button
                   disabled={submitButtonText === "Sending"}
                   type="submit"
-                  className="py-3 px-5 text-sm font-medium text-center border border-application-color text-application-color rounded-lg bg-primary-700 sm:w-fit hover:bg-application-color hover:text-white focus:ring-4 focus:outline-none focus:ring-primary-300"
+                  className="py-3 px-5 text-md font-medium text-center text-semibold border border-application-color text-application-color rounded-lg bg-primary-700 sm:w-fit hover:bg-application-color hover:text-white focus:ring-4 focus:outline-none focus:ring-primary-300"
                   onClick={(e) => submitContactInfo(e)}
                 >
                   {submitButtonText}
