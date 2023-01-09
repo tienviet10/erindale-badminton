@@ -2,7 +2,7 @@
 const Benefits = () => {
   return (
     <div className="bg-gray-100 flex justify-center w-full" id="Benefits">
-      <section className="w-[90%] md:w-[75%] lg:w-[60%] px-4 py-52 mx-auto space-y-12 lg:space-y-20 lg:py-40 lg:px-0">
+      <section className="w-[90%] md:w-[75%] lg:w-[60%] px-4 py-40 mx-auto space-y-12 lg:space-y-20 lg:px-0">
       <div className="sm:text-lg text-black">
             <h2 className="mb-4 text-3xl lg:text-4xl font-extrabold tracking-tight text-application-color">
               Why join us?

@@ -2,7 +2,7 @@
 const Information = () => {
   return (
     <section className="bg-application-color" id="Locations">
-      <div className="w-[90%] md:w-[75%] lg:w-[60%] px-4 lg:px-0 py-52 lg:py-40 mx-auto space-y-12 lg:space-y-20">
+      <div className="w-[90%] md:w-[75%] lg:w-[60%] px-4 lg:px-0 py-40 mx-auto space-y-12 lg:space-y-20">
           <div className="sm:text-lg text-white">
             <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-text-application-color">
               Play Time and Locations:

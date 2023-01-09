@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section>
       <div className="bg-application-color text-white py-20">
-        <div className="container mx-auto flex flex-col lg:flex-row items-center my-12 lg:my-24 pt-16">
+        <div className="container mx-auto flex flex-col lg:flex-row items-center my-12 lg:my-24 pt-3">
           <div className="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
             <h1 className="text-2xl xl:text-3xl 2xl:text-4xl pt-3 pb-3 tracking-loose text-text-application-color">Welcome!</h1>
             <h2 className="text-3xl xl:text-4xl 2xl:text-5xl leading-relaxed xl:leading-snug mb-4 ">Erindale Badminton

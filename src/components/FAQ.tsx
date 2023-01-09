@@ -3,7 +3,7 @@ import infoIcon from "../assets/info.png";
 const FAQ = () => {
   return (
     <div className="bg-gray-100 flex justify-center w-full" id="FAQ">
-      <section className="w-[90%] md:w-[75%] lg:w-[60%] px-4 py-52 mx-auto space-y-12 lg:space-y-20 lg:py-40 lg:px-0">
+      <section className="w-[90%] md:w-[75%] lg:w-[60%] px-4 py-40 mx-auto space-y-12 lg:space-y-20 lg:px-0">
         <div className="flex flex-col">
           <div className="mx-auto w-[100%] mt-5 lg:mt-0">
             <h2 className="mb-8 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-application-color">
