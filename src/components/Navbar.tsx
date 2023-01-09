@@ -226,7 +226,7 @@ const Navbar = () => {
               <div className="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
                 <button
                   type="button"
-                  className="inline-block px-6 py-2.5 bg-application-color text-white font-medium text-xs leading-tight uppercase rounded shadow-md"
+                  className="inline-block px-6 py-2.5 bg-red-800 text-white font-medium text-xs leading-tight uppercase rounded shadow-md"
                   data-bs-dismiss="modal"
                   onClick={()=> setOpenedModal(false)}
                 >
