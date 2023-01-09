@@ -27,8 +27,8 @@ const Navbar = () => {
       <nav
         className={
           scrolled || menuExpand
-            ? "flex items-center justify-between flex-wrap p-6 lg:p-2 bg-application-color"
-            : "flex items-center justify-between flex-wrap p-6 lg:p-2 bg-transparent"
+            ? "flex items-center justify-between flex-wrap p-4 lg:p-2 bg-application-color"
+            : "flex items-center justify-between flex-wrap p-4 lg:p-2 bg-transparent"
         }
       >
         <div className="flex items-center flex-shrink-0 text-white mr-6">
@@ -55,7 +55,7 @@ const Navbar = () => {
           </button>
         </div>
         {menuExpand ? (
-          <div className="absolute top-[63%] left-0 pl-8 pb-8 w-full block flex-grow lg:flex lg:items-center lg:w-auto bg-[#1c610b] shadow-lg">
+          <div className="absolute top-[58%] left-0 pl-8 pb-8 w-full block flex-grow lg:flex lg:items-center lg:w-auto bg-[#1c610b] shadow-lg">
             <div className="inline-block text-lg px-4 py-2 leading-none text-white mt-4 lg:mt-0">
               <a
                 href="#"
