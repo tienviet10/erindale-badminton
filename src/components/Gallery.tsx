@@ -36,7 +36,7 @@ const Gallery = () => {
       className="bg-application-color flex justify-center w-full text-text-application-color"
       id="Gallery"
     >
-      <section className="w-[90%] px-4 py-24 mx-auto space-y-5 lg:space-y-10 lg:py-24 lg:px-6 overflow-hidden text-gray-700">
+      <section className="w-[90%] py-52 px-4 mx-auto space-y-5 lg:space-y-10 lg:py-40 lg:px-6 overflow-hidden text-gray-700">
         <h2 className="text-3xl lg:text-4xl font-bold text-center text-text-application-color">
           Gallery
         </h2>
