@@ -11,7 +11,7 @@ const Hero = () => {
             <h1 className="text-2xl xl:text-3xl 2xl:text-4xl pt-3 pb-3 tracking-loose text-text-application-color">Welcome!</h1>
             <h2 className="text-3xl xl:text-4xl 2xl:text-5xl leading-relaxed xl:leading-snug mb-4 ">Erindale Badminton
             </h2>
-            <p className="text-xl lg:text-base text-gray-50 mb-4 text-justify">Erindale Badminton Club is a 60-year strong non-profit badminton club for adults 18 years of age and older. The mission of Erindale Badminton Club is to offer a venue or venues where Members and their registered guests are afforded an opportunity to play badminton, get exercise and socialize in a respectful and hospitable environment.</p>
+            <p className="text-xl lg:text-base text-gray-50 mb-4 text-justify">Erindale Badminton Club is a 50-year strong non-profit badminton club for adults 18 years of age and older. The mission of Erindale Badminton Club is to offer venues where members and their registered guests are afforded an opportunity to play badminton, get exercise and socialize in a respectful and hospitable environment.</p>
             <div className="mt-4 z-10">
               <a href="#Locations"
                 className="bg-transparent hover:bg-text-application-color text-text-application-color hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-text-application-color hover:border-transparent">

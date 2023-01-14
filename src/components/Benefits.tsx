@@ -25,7 +25,7 @@ const Benefits = () => {
                   </svg>
 
                 <p className="mb-8 font-light text-xl">
-                  <span className="font-semibold text-application-color">Community environment</span> - Being part of a community can have a positive effect on mental health and emotional wellbeing. Community involvement provides a sense of belonging and social connectedness. It can also offer extra meaning and purpose to everyday life and is a prime opportunity to make lifelong friendships. 
+                  <span className="font-semibold text-application-color">Community environment</span> - We provide a sense of belonging and social connectedness, which has a positive effect on mental health and wellbeing. It can also offer extra meaning and purpose to everyday life and is a prime opportunity to make lifelong friendships. 
                 </p>
               </li>
               <li className="flex space-x-3">
@@ -57,7 +57,7 @@ const Benefits = () => {
                   ></path>
                 </svg>
                 <p className="mb-8 font-light text-xl">
-                  <span className="font-semibold text-application-color">Social event nights</span> - Members can look forward to periodic social nights to celebrate various holidays. These events can include food, organized games and prizes. Other events include our annual in-house tournament and year end party.
+                  <span className="font-semibold text-application-color">Social event nights</span> - Members can look forward to periodic social nights to celebrate various holidays. These events can include refreshments, organized games and prizes. Other events include our annual in-house tournament and year end party.
                 </p>
               </li>
               <li className="flex space-x-3">
@@ -73,7 +73,7 @@ const Benefits = () => {
                   ></path>
                 </svg>
                 <p className="mb-8 font-light text-xl">
-                  <span className="font-semibold text-application-color">Plentiful court space</span> - We have 6-9 available courts (location depending). We also use a queue system that promotes a quick rotation so that members will not spend excessive time sitting idle.
+                  <span className="font-semibold text-application-color">Plentiful court space</span> - Dependent on location, we have 6-9 courts available. A queue system is used to promote a quick rotation to avoid spending excessive time sitting idle.
                 </p>
               </li>
               <li className="flex space-x-3">
@@ -89,7 +89,7 @@ const Benefits = () => {
                   ></path>
                 </svg>
                 <p className="font-light text-xl">
-                  <span className="font-semibold text-application-color">Good value for money</span> - Other badminton clubs have a sizable monthly or yearly subsciption. Erindale’s membership is affordable, budget friendly and offers its members multiple days of play as well as the above mentioned event nights.
+                  <span className="font-semibold text-application-color">Good value for money</span> - Other badminton clubs have a sizable monthly or yearly subsciption. Erindale’s membership is affordable, budget friendly and offers its members multiple days of play including event nights.
                 </p>
               </li>
             </ul>
