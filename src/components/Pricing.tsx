@@ -3,7 +3,7 @@ const Pricing = () => {
   return (
     <div className="bg-application-color flex justify-center w-full lg:py-0" id="Pricing">
       <section className="w-[90%] px-4 py-40 mx-auto space-y-12 lg:space-y-10 lg:px-6">
-        <h2 className="text-3xl lg:text-4xl font-bold text-center text-text-application-color">Join Us!</h2>
+        <h2 className="text-3xl lg:text-4xl font-bold text-center text-text-application-color">Pricing</h2>
 
         <div className="w-full flex flex-col lg:flex-row space-x-0 lg:space-x-20 justify-center items-center lg:items-stretch py-0 lg:py-10">
           <div className="mb-6 w-[100%] lg:mb-0 max-w-[400px] lg:w-[30%] text-lg">

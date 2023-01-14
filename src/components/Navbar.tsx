@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import badmintonImg from "../assets/erindale-badminton-yellow.webp";
-import AnnouncementBanner from "./AnnouncementBanner";
 // import badmintonImg from "../assets/badminton.webp";
 import './Navbar.css';
 
@@ -160,7 +159,7 @@ const Navbar = () => {
           </ul>
         )}
       </nav>
-      <AnnouncementBanner setOpenedModal={setOpenedModal}/>
+      {/* <AnnouncementBanner setOpenedModal={setOpenedModal}/> */}
       {
        openedModal && (
         <div
