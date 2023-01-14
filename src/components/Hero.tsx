@@ -15,10 +15,10 @@ const Hero = () => {
             <div className="mt-4 z-10">
               <a href="#Locations"
                 className="bg-transparent hover:bg-text-application-color text-text-application-color hover:text-black rounded shadow hover:shadow-lg py-2 px-2 sm:px-4 border border-text-application-color hover:border-transparent">
-                More Info
+                Locations
               </a>
               <a href="#Pricing"
-                className="bg-transparent hover:bg-text-application-color text-text-application-color hover:text-black rounded shadow hover:shadow-lg py-2 px-4 sm:px-6 border border-text-application-color hover:border-transparent ml-4">
+                className="bg-transparent hover:bg-text-application-color text-text-application-color hover:text-black rounded shadow hover:shadow-lg py-2 px-2 sm:px-6 border border-text-application-color hover:border-transparent ml-4">
                 Pricing
               </a>
             </div>
