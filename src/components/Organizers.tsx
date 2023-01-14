@@ -26,7 +26,7 @@ const Organizers = () => {
   return (
     <div className="bg-gray-100 flex justify-center w-full " id="Organizer">
       <section className="w-[90%] px-4 mx-auto space-y-10 lg:space-y-24 lg:px-6 py-40">
-        <h2 className="text-3xl lg:text-4xl font-bold text-center text-application-color">Organizers</h2>
+        <h2 className="text-3xl lg:text-4xl font-bold text-center text-application-color">Executive Committee</h2>
         <div className="flex flex-col md:flex-row items-center justify-center space-x-0 space-y-10 md:space-y-0 md:space-x-5 lg:space-x-10">
           {Object.keys(namePositionMap1).map((name)=>{
             return <ImageIndividual key={name} person1={namePositionMap1[name][1]} person2={namePositionMap1[name][2]} name={name} title={namePositionMap1[name][0]}/>
