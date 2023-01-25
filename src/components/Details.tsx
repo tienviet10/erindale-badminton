@@ -33,7 +33,7 @@ const Details = ({setOpenedModal}) => {
           </button>
         </div>
         <div className="modal-body relative p-4">
-          <p>Welcome to our new website!</p>
+          <p>Canceled, Loyola Jan 25th 8:15pm.</p>
         </div>
         <div className="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
           <button
