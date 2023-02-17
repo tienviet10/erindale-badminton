@@ -11,7 +11,7 @@ const AnnouncementBanner = ({setOpenedModal}) => {
               </svg>
             </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              Canceled, Loyola Jan 25th 8:15pm.
+              No badminton Family day, Monday February 20th, 2023.
             </p>
           </div>
           <div className="w-full flex sm:mt-0 sm:w-auto justify-center">
