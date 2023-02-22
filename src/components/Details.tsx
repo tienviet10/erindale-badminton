@@ -33,7 +33,7 @@ const Details = ({setOpenedModal}) => {
           </button>
         </div>
         <div className="modal-body relative p-4">
-          <p>No badminton Family day, Monday February 20th, 2023.</p>
+          <p>Snow Cancelation! Wednesday, February 22nd, 2023.</p>
         </div>
         <div className="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
           <button
