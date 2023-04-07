@@ -23,16 +23,22 @@ import Easter3 from "../assets/easter3.webp";
 import Easter4 from "../assets/easter4.webp";
 import Easter5 from "../assets/easter5.webp";
 import Easter6 from "../assets/easter6.webp";
+import NewYear1 from "../assets/newyear1.webp";
+import NewYear2 from "../assets/newyear2.webp";
+import NewYear3 from "../assets/newyear3.webp";
+import NewYear4 from "../assets/newyear4.webp";
+import NewYear5 from "../assets/newyear5.webp";
+import NewYear6 from "../assets/newyear6.webp";
 
 // const galleryTabs = ["Christmas", "Club", "Tournament", "Halloween" ];
-const galleryTabs = ["Club", "Halloween", "Christmas", "Easter" ];
+const galleryTabs = ["Club", "Halloween", "Christmas", "New Year", "Easter" ];
 const imageListMap = {
   "Club": [ChristmasGroup2, ClubGroup1, ClubGroup3, ChristmasGroup3, ClubGroup4, ClubGroup2], 
   // "Tournament": ["https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg"], 
   "Halloween": [Halloween6, Halloween1, Halloween2, Halloween3, Halloween5, Halloween4], 
   "Christmas": [ChristmasFood3, ChristmasFood1, ChristmasGroup1, ChristmasGroup4, ChristmasFood4, ChristmasFood2],
-  // "Valentines": [ChristmasFood3, ChristmasFood1, ChristmasGroup1, ChristmasGroup4, ChristmasFood4, ChristmasFood2],
-  "Easter": [Easter6, Easter4, Easter2, Easter3, Easter5, Easter1],
+  "New Year": [NewYear4, NewYear2, NewYear3, NewYear1, NewYear5, NewYear6],
+  "Easter": [Easter6, Easter3, Easter2, Easter4, Easter5, Easter1],
 }
 const Gallery = () => {
   const [galleryTab, setGalleryTab] = useState(galleryTabs[0]);
