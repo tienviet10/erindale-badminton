@@ -33,9 +33,9 @@ import NewYear6 from "../assets/newyear6.webp";
 // const galleryTabs = ["Christmas", "Club", "Tournament", "Halloween" ];
 const galleryTabs = ["Club", "Halloween", "Christmas", "New Year", "Easter" ];
 const imageListMap = {
-  "Club": [ChristmasGroup2, ClubGroup1, ClubGroup3, ChristmasGroup3, ClubGroup4, ClubGroup2], 
+  "Club": [ChristmasGroup2, ClubGroup2, ClubGroup3, ChristmasGroup3, ClubGroup4, ClubGroup1], 
   // "Tournament": ["https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg"], 
-  "Halloween": [Halloween6, Halloween1, Halloween2, Halloween3, Halloween5, Halloween4], 
+  "Halloween": [Halloween6, Halloween1, Halloween4, Halloween3, Halloween5, Halloween2], 
   "Christmas": [ChristmasFood3, ChristmasFood1, ChristmasGroup1, ChristmasGroup4, ChristmasFood4, ChristmasFood2],
   "New Year": [NewYear4, NewYear2, NewYear3, NewYear1, NewYear5, NewYear6],
   "Easter": [Easter6, Easter3, Easter2, Easter4, Easter5, Easter1],
