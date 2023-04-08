@@ -28,7 +28,7 @@ const Navbar = () => {
       <nav
         className={
           scrolled || menuExpand
-            ? "flex items-center justify-between flex-wrap p-4 lg:p-2 bg-[#082e04]"
+            ? "flex items-center justify-between flex-wrap p-4 lg:p-2 bg-application-color"
             : "flex items-center justify-between flex-wrap p-4 lg:p-2 bg-transparent"
         }
       >

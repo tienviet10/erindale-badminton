@@ -35,9 +35,9 @@ const galleryTabs = ["Club", "Halloween", "Christmas", "New Year", "Easter" ];
 const imageListMap = {
   "Club": [ChristmasGroup2, ClubGroup3, ChristmasGroup3, ChristmasGroup4, ClubGroup4, ClubGroup1], 
   // "Tournament": ["https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg"], 
-  "Halloween": [Halloween6, Halloween1, Halloween4, Halloween3, Halloween5, Halloween2], 
+  "Halloween": [Halloween5, Halloween1, Halloween6, Halloween4, Halloween3, Halloween2], 
   "Christmas": [ChristmasFood3, ChristmasFood1, ChristmasGroup1, ChristmasGroup4, ChristmasFood4, ChristmasFood2],
-  "New Year": [NewYear4, NewYear2, NewYear3, NewYear1, NewYear5, NewYear6],
+  "New Year": [NewYear5, NewYear2, NewYear1, NewYear3, NewYear4, NewYear6],
   "Easter": [Easter6, Easter3, Easter2, Easter4, Easter5, Easter1],
 }
 const Gallery = () => {
