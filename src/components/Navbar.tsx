@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className="flex items-center flex-shrink-0 text-white mr-6">
           <img
             src={badmintonImg}
-            className="max-h-10 ml-2 lg:ml-10"
+            className="max-h-14 ml-2 lg:ml-10"
             alt="Badminton Image"
           />
           {/* <a className="font-bold text-xl lg:text-2xl tracking-tight ml-0 lg:ml-2 text-[#fde047]" href="#">Erindale Badminton</a> */}
