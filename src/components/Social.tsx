@@ -1,12 +1,12 @@
-import React from "react";
-import emailIcon from "../assets/email.webp";
-import facebookIcon from "../assets/facebook.webp";
-import instagramIcon from "../assets/instagram.webp";
-import "./Social.css";
+import React from 'react';
+import emailIcon from '../assets/email.webp';
+import facebookIcon from '../assets/facebook.webp';
+import instagramIcon from '../assets/instagram.webp';
+import './Social.css';
 
 const Social = () => {
   const openInNewTab = (url) => {
-    window.open(url, "_blank");
+    window.open(url, '_blank');
   };
 
   return (
@@ -15,7 +15,7 @@ const Social = () => {
         className="customSocialItems bg-[#E1306C]"
         onClick={() =>
           openInNewTab(
-            "https://www.instagram.com/erindale_badminton_club/?next=%2F/"
+            'https://www.instagram.com/erindale_badminton_club/?next=%2F/'
           )
         }
       >
@@ -26,7 +26,7 @@ const Social = () => {
         className="customSocialItems bg-[#3b5998]"
         onClick={() =>
           openInNewTab(
-            "https://www.facebook.com/profile.php?id=100088558296408"
+            'https://www.facebook.com/profile.php?id=100088558296408'
           )
         }
       >
@@ -43,7 +43,7 @@ const Social = () => {
       <div
         className="customSocialItems bg-[#6fc2b0]"
         onClick={() =>
-          openInNewTab("mailto:erindale.badminton@gmail.com?subject=Questions")
+          openInNewTab('mailto:erindale.badminton@gmail.com?subject=Questions')
         }
       >
         <div className="customTextItems">Email</div>

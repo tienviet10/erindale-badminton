@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
-import badmintonImg from "../assets/erindale-badminton-yellow.webp";
-import AnnouncementBanner from "./AnnouncementBanner";
-import Details from "./Details";
+import React from 'react';
+import { useEffect, useState } from 'react';
+import badmintonImg from '../assets/erindale-badminton-yellow.webp';
+import AnnouncementBanner from './AnnouncementBanner';
+import Details from './Details';
 // import badmintonImg from "../assets/badminton.webp";
 import './Navbar.css';
 
@@ -19,17 +20,17 @@ const Navbar = () => {
       }
     };
 
-    window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
+    window.addEventListener('scroll', onScroll);
+    return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  return ( 
+  return (
     <div className="fixed w-full z-50">
       <nav
         className={
           scrolled || menuExpand
-            ? "flex items-center justify-between flex-wrap p-4 lg:p-2 bg-application-color"
-            : "flex items-center justify-between flex-wrap p-4 lg:p-2 bg-transparent"
+            ? 'flex items-center justify-between flex-wrap p-4 lg:p-2 bg-application-color'
+            : 'flex items-center justify-between flex-wrap p-4 lg:p-2 bg-transparent'
         }
       >
         <div className="flex items-center flex-shrink-0 text-white mr-6">
@@ -161,19 +162,10 @@ const Navbar = () => {
           </ul>
         )}
       </nav>
-      <AnnouncementBanner setOpenedModal={setOpenedModal}/>
-      {
-       openedModal && (
-        <Details setOpenedModal={setOpenedModal}/>
-       )
-      }
-
+      <AnnouncementBanner setOpenedModal={setOpenedModal} />
+      {openedModal && <Details setOpenedModal={setOpenedModal} />}
     </div>
+  );
+};
 
-  )
-}
-
-export default Navbar
-
-
-
+export default Navbar;

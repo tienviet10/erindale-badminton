@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Details = ({ setOpenedModal }) => {
   return (
     <div

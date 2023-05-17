@@ -1,4 +1,5 @@
-import infoIcon from "../assets/info.png";
+import infoIcon from '../assets/info.png';
+import React from 'react';
 
 const FAQ = () => {
   return (
@@ -25,9 +26,14 @@ const FAQ = () => {
                     <li>
                       Access to our nine courts for the entire play season
                     </li>
-                    <li>We provide Mavis 300 plastic shuttles. Feather shuttles may be used at members discretion but are not provided by EBC.</li>
                     <li>
-                      4 social event nights, in house tournament, and year end party.
+                      We provide Mavis 300 plastic shuttles. Feather shuttles
+                      may be used at members discretion but are not provided by
+                      EBC.
+                    </li>
+                    <li>
+                      4 social event nights, in house tournament, and year end
+                      party.
                     </li>
                   </ul>
                 </div>
@@ -84,11 +90,10 @@ const FAQ = () => {
               </div>
             </div>
           </div>
-
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default FAQ
+export default FAQ;

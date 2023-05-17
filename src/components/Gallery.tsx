@@ -1,45 +1,66 @@
-import { useState } from "react";
-import ChristmasFood4 from "../assets/christmas_food1.webp";
-import ChristmasFood1 from "../assets/christmas_food2.webp";
-import ChristmasFood2 from "../assets/christmas_food3.webp";
-import ChristmasFood3 from "../assets/christmas_food4.webp";
-import ChristmasGroup1 from "../assets/christmas_group1.webp";
-import ChristmasGroup2 from "../assets/christmas_group2.webp";
-import ChristmasGroup3 from "../assets/christmas_group3.webp";
-import ChristmasGroup4 from "../assets/christmas_group4.webp";
-import ClubGroup1 from "../assets/club-badminton1.webp";
-import ClubGroup2 from "../assets/club-badminton2.webp";
-import ClubGroup4 from "../assets/club-badminton4.webp";
-import ClubGroup3 from "../assets/club_badminton3.webp";
-import Halloween1 from "../assets/Halloween1.webp";
-import Halloween2 from "../assets/Halloween2.webp";
-import Halloween3 from "../assets/Halloween3.webp";
-import Halloween4 from "../assets/Halloween4.webp";
-import Halloween5 from "../assets/Halloween5.webp";
-import Halloween6 from "../assets/Halloween6.webp";
-import Easter1 from "../assets/easter1.webp";
-import Easter2 from "../assets/easter2.webp";
-import Easter3 from "../assets/easter3.webp";
-import Easter4 from "../assets/easter4.webp";
-import Easter5 from "../assets/easter5.webp";
-import Easter6 from "../assets/easter6.webp";
-import NewYear1 from "../assets/newyear1.webp";
-import NewYear2 from "../assets/newyear2.webp";
-import NewYear3 from "../assets/newyear3.webp";
-import NewYear4 from "../assets/newyear4.webp";
-import NewYear5 from "../assets/newyear5.webp";
-import NewYear6 from "../assets/newyear6.webp";
+import React, { useState } from 'react';
+import ChristmasFood4 from '../assets/christmas_food1.webp';
+import ChristmasFood1 from '../assets/christmas_food2.webp';
+import ChristmasFood2 from '../assets/christmas_food3.webp';
+import ChristmasFood3 from '../assets/christmas_food4.webp';
+import ChristmasGroup1 from '../assets/christmas_group1.webp';
+import ChristmasGroup2 from '../assets/christmas_group2.webp';
+import ChristmasGroup3 from '../assets/christmas_group3.webp';
+import ChristmasGroup4 from '../assets/christmas_group4.webp';
+import ClubGroup1 from '../assets/club-badminton1.webp';
+import ClubGroup2 from '../assets/club-badminton2.webp';
+import ClubGroup4 from '../assets/club-badminton4.webp';
+import ClubGroup3 from '../assets/club_badminton3.webp';
+import Halloween1 from '../assets/Halloween1.webp';
+import Halloween2 from '../assets/Halloween2.webp';
+import Halloween3 from '../assets/Halloween3.webp';
+import Halloween4 from '../assets/Halloween4.webp';
+import Halloween5 from '../assets/Halloween5.webp';
+import Halloween6 from '../assets/Halloween6.webp';
+import Easter1 from '../assets/easter1.webp';
+import Easter2 from '../assets/easter2.webp';
+import Easter3 from '../assets/easter3.webp';
+import Easter4 from '../assets/easter4.webp';
+import Easter5 from '../assets/easter5.webp';
+import Easter6 from '../assets/easter6.webp';
+import NewYear1 from '../assets/newyear1.webp';
+import NewYear2 from '../assets/newyear2.webp';
+import NewYear3 from '../assets/newyear3.webp';
+import NewYear4 from '../assets/newyear4.webp';
+import NewYear5 from '../assets/newyear5.webp';
+import NewYear6 from '../assets/newyear6.webp';
 
 // const galleryTabs = ["Christmas", "Club", "Tournament", "Halloween" ];
-const galleryTabs = ["Club", "Halloween", "Christmas", "New Year", "Easter" ];
+const galleryTabs = ['Club', 'Halloween', 'Christmas', 'New Year', 'Easter'];
 const imageListMap = {
-  "Club": [ChristmasGroup2, ClubGroup3, ChristmasGroup3, ChristmasGroup4, ClubGroup4, ClubGroup1], 
-  // "Tournament": ["https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg"], 
-  "Halloween": [Halloween5, Halloween1, Halloween6, Halloween4, Halloween3, Halloween2], 
-  "Christmas": [ChristmasFood3, ChristmasFood1, ChristmasGroup1, ChristmasGroup4, ChristmasFood4, ChristmasFood2],
-  "New Year": [NewYear5, NewYear2, NewYear1, NewYear3, NewYear4, NewYear6],
-  "Easter": [Easter6, Easter3, Easter2, Easter4, Easter5, Easter1],
-}
+  Club: [
+    ChristmasGroup2,
+    ClubGroup3,
+    ChristmasGroup3,
+    ChristmasGroup4,
+    ClubGroup4,
+    ClubGroup1,
+  ],
+  // "Tournament": ["https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg", "https://www.erindalebadminton.com/albums/2013XmasParty/DSC_7091.jpg"],
+  Halloween: [
+    Halloween5,
+    Halloween1,
+    Halloween6,
+    Halloween4,
+    Halloween3,
+    Halloween2,
+  ],
+  Christmas: [
+    ChristmasFood3,
+    ChristmasFood1,
+    ChristmasGroup1,
+    ChristmasGroup4,
+    ChristmasFood4,
+    ChristmasFood2,
+  ],
+  'New Year': [NewYear5, NewYear2, NewYear1, NewYear3, NewYear4, NewYear6],
+  Easter: [Easter6, Easter3, Easter2, Easter4, Easter5, Easter1],
+};
 const Gallery = () => {
   const [galleryTab, setGalleryTab] = useState(galleryTabs[0]);
   const [mobileDropdown, setMobileDropdown] = useState(false);
@@ -62,8 +83,8 @@ const Gallery = () => {
                   key={tab}
                   className={
                     tab === galleryTab
-                      ? "inline-block px-4 py-2 font-medium border-text-application-color duration-150 ease-in border-b text-lg text-text-application-color cursor-pointer"
-                      : "inline-block px-4 py-2 font-medium text-white text-lg border-text-application-color duration-150 ease-in hover:border-b hover:text-text-application-color cursor-pointer"
+                      ? 'inline-block px-4 py-2 font-medium border-text-application-color duration-150 ease-in border-b text-lg text-text-application-color cursor-pointer'
+                      : 'inline-block px-4 py-2 font-medium text-white text-lg border-text-application-color duration-150 ease-in hover:border-b hover:text-text-application-color cursor-pointer'
                   }
                   onClick={() => setGalleryTab(tab)}
                 >
@@ -373,7 +394,7 @@ const Gallery = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default Gallery
+export default Gallery;

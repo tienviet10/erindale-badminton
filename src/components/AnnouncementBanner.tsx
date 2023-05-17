@@ -1,3 +1,5 @@
+import React from 'react';
+
 const AnnouncementBanner = ({ setOpenedModal }) => {
   return (
     <div className="bg-yellow-400">
