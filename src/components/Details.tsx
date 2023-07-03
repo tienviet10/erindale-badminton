@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Details = ({ setOpenedModal }) => {
   return (
@@ -37,7 +37,7 @@ const Details = ({ setOpenedModal }) => {
             </button>
           </div>
           <div className="modal-body relative p-4">
-            <p>Cancellations: Wed. May. 24</p>
+            <p>Accepting new full year memberships 2023/24</p>
           </div>
           <div className="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
             <button

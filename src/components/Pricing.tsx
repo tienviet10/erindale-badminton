@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Pricing = () => {
   return (
@@ -88,8 +88,8 @@ const Pricing = () => {
                   <strong>Half Season</strong>
                 </p>
                 <h3 className="text-2xl mb-6">
-                  <strong>TBD</strong>
-                  <small className="text-gray-900 text-md">/year</small>
+                  <strong>N/A</strong>
+                  {/* <small className="text-gray-900 text-md">/year</small> */}
                 </h3>
 
                 {/* <button type="button"
@@ -274,7 +274,7 @@ const Pricing = () => {
         <div className="w-full flex flex-row justify-center text-white">
           <div className="max-w-7xl text-xl text-justify lg:py-0">
             Our club accepts new members from our waiting list. If you wish to
-            join us, please send us an email to{' '}
+            join us, please send us an email to{" "}
             <a
               className="underline text-text-application-color font-semibold"
               href="mailto:erindale.badminton@gmail.com?subject=Erindale Badminton Club Registration Request!"
@@ -284,14 +284,14 @@ const Pricing = () => {
             . We will inform you when we have a spot for you. Please refer to
             the registration form for more information and note that membership
             is accepted only upon receipt of both payment of fee and
-            registration form. Download and fill in this{' '}
+            registration form. Download and fill in this{" "}
             <a
               className="underline font-semibold text-text-application-color"
               href="https://drive.google.com/file/d/1si7iv-zH2nsAZNH4miL-7r6tizZoFmdG/view?usp=sharing"
-              target={'_blank'}
+              target={"_blank"}
             >
               registration form
-            </a>{' '}
+            </a>{" "}
             for membership.
           </div>
         </div>

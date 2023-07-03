@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const AnnouncementBanner = ({ setOpenedModal }) => {
   return (
@@ -24,7 +24,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
               </svg>
             </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              Cancellations: Wed. May. 24.
+              Accepting new full year memberships 2023/24
             </p>
           </div>
           <div className="w-full flex sm:mt-0 sm:w-auto justify-center">
