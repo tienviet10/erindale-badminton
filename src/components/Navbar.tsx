@@ -162,7 +162,7 @@ const Navbar = () => {
           </ul>
         )}
       </nav>
-      {/* <AnnouncementBanner setOpenedModal={setOpenedModal} /> */}
+      <AnnouncementBanner setOpenedModal={setOpenedModal} />
       {openedModal && <Details setOpenedModal={setOpenedModal} />}
     </div>
   );

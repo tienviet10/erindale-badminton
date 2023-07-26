@@ -37,7 +37,7 @@ const Details = ({ setOpenedModal }) => {
             </button>
           </div>
           <div className="modal-body relative p-4">
-            <p>Accepting new full year memberships 2023/24</p>
+            <p>New season begins September 18!!!</p>
           </div>
           <div className="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
             <button
