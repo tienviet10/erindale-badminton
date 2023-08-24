@@ -1,16 +1,16 @@
-import React from 'react';
-import { useState } from 'react';
+import React from "react";
+import { useState } from "react";
 
 const Contact = () => {
   const initContactInfo = {
-    firstName: '',
-    lastName: '',
-    email: '',
-    tel: '',
-    message: '',
+    firstName: "",
+    lastName: "",
+    email: "",
+    tel: "",
+    message: "",
   };
   const [contactInfo, setContactInfo] = useState(initContactInfo);
-  const [submitButtonText, setSubmitButtonText] = useState('Send Message');
+  const [submitButtonText, setSubmitButtonText] = useState("Send Message");
 
   const changeContactInfo = (e) => {
     setContactInfo((info) => ({
@@ -21,32 +21,32 @@ const Contact = () => {
 
   const submitContactInfo = async (e) => {
     if (
-      contactInfo.firstName !== '' &&
-      contactInfo.lastName !== '' &&
-      contactInfo.email !== '' &&
-      contactInfo.message !== ''
+      contactInfo.firstName !== "" &&
+      contactInfo.lastName !== "" &&
+      contactInfo.email !== "" &&
+      contactInfo.message !== ""
     ) {
       e.preventDefault();
-      setSubmitButtonText('Sending');
+      setSubmitButtonText("Sending");
       try {
         await fetch(
-          'https://getform.io/f/05849952-fe73-4860-994d-9dcb33ee3da0',
+          "https://getform.io/f/05849952-fe73-4860-994d-9dcb33ee3da0",
           {
-            method: 'post',
-            headers: { 'Content-Type': 'application/json' },
+            method: "post",
+            headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
-              'first-name': contactInfo.firstName,
-              'last-name': contactInfo.lastName,
-              'email-address': contactInfo.email,
+              "first-name": contactInfo.firstName,
+              "last-name": contactInfo.lastName,
+              "email-address": contactInfo.email,
               telephone: contactInfo.tel,
               message: contactInfo.message,
             }),
           }
         );
         setContactInfo(initContactInfo);
-        setSubmitButtonText('Send Message');
+        setSubmitButtonText("Send Message");
       } catch (error) {
-        setSubmitButtonText('Send Message');
+        setSubmitButtonText("Send Message");
         throw new Error(`Something went wrong: ${error.message || error}`);
       }
     }
@@ -172,7 +172,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <button
-                  disabled={submitButtonText === 'Sending'}
+                  disabled={submitButtonText === "Sending"}
                   type="submit"
                   className="py-3 px-5 text-md font-medium text-center text-semibold border border-application-color text-application-color rounded-lg bg-primary-700 sm:w-fit hover:bg-application-color hover:text-white focus:ring-4 focus:outline-none focus:ring-primary-300"
                   onClick={(e) => submitContactInfo(e)}
@@ -185,7 +185,7 @@ const Contact = () => {
                   Additional Info
                 </div>
                 <p className="text-lg">
-                  <strong className=" text-application-color">Email:</strong>{' '}
+                  <strong className=" text-application-color">Email:</strong>{" "}
                   <a
                     className="underline"
                     href="mailto:erindale.badminton@gmail.com?subject=Questions"
@@ -196,7 +196,7 @@ const Contact = () => {
                 <div className="text-lg">
                   <p>
                     <strong className=" text-application-color">
-                      Facebook:{' '}
+                      Facebook:{" "}
                     </strong>
                     <a
                       className="underline"
@@ -209,7 +209,7 @@ const Contact = () => {
                 <div className="text-lg">
                   <p>
                     <strong className=" text-application-color">
-                      Instagram:{' '}
+                      Instagram:{" "}
                     </strong>
                     <a
                       className="underline"
@@ -222,7 +222,7 @@ const Contact = () => {
                 <div className="text-lg">
                   <p>
                     <strong className=" text-application-color">
-                      Monday Location:{' '}
+                      Monday Location:{" "}
                     </strong>
                     8-10pm
                   </p>
@@ -232,14 +232,14 @@ const Contact = () => {
                 <div className="text-lg">
                   <p>
                     <strong className=" text-application-color">
-                      Wednesday Location:{' '}
+                      Wednesday Location:{" "}
                     </strong>
                     8:15-10pm
                   </p>
                   <p>Loyola Catholic Secondary School</p>
                   <p>4010 Sladeview Cres, Mississauga, ON L5L 6B1</p>
                 </div>
-                <div className="text-lg">
+                {/* <div className="text-lg">
                   <p>
                     <strong className=" text-application-color">
                       Friday Location:{' '}
@@ -248,7 +248,7 @@ const Contact = () => {
                   </p>
                   <p>Clarkson Secondary School</p>
                   <p>2524 Bromsgrove Rd, Mississauga, ON L5J 1L8</p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

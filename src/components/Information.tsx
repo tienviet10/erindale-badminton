@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Information = () => {
   return (
@@ -76,20 +76,22 @@ const Information = () => {
                 ></path>
               </svg>
               <span className="text-xl font-medium leading-tight text-white">
-                Friday: 6:00pm - 8:00pm (
+                {/* Friday: 6:00pm - 8:00pm (
                 <a
                   className="hover:text-yellow-700 underline"
                   href="https://www.google.com/maps/place/2524+Bromsgrove+Rd,+Mississauga,+ON+L5J+1L8/@43.5037272,-79.6458246,17z/data=!3m1!4b1!4m5!3m4!1s0x882b44836dba4aaf:0x37453752dc3e9b7d!8m2!3d43.5037272!4d-79.6458246"
                 >
                   at Clarkson Secondary School
                 </a>
-                )
+                ) */}
+                Friday: 6:00pm - 8:00pm (TBD)
               </span>
             </li>
           </ul>
           <p className="mb-2 font-light text-md">
-            * Guests are welcome to join on Wednesday and Friday. Consult
-            Pricing section for the fees. Contact us to reserve your guest spot.
+            {/* * Guests are welcome to join on Wednesday and Friday. Consult
+            Pricing section for the fees. Contact us to reserve your guest spot. */}
+            Guests are invited only.
           </p>
         </div>
       </div>
