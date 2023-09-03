@@ -239,16 +239,16 @@ const Contact = () => {
                   <p>Loyola Catholic Secondary School</p>
                   <p>4010 Sladeview Cres, Mississauga, ON L5L 6B1</p>
                 </div>
-                {/* <div className="text-lg">
+                <div className="text-lg">
                   <p>
                     <strong className=" text-application-color">
-                      Friday Location:{' '}
+                      Friday Location:{" "}
                     </strong>
-                    6-8pm
+                    6-10pm
                   </p>
-                  <p>Clarkson Secondary School</p>
-                  <p>2524 Bromsgrove Rd, Mississauga, ON L5J 1L8</p>
-                </div> */}
+                  <p>Homelands Sr. Public School</p>
+                  <p>2420 Homelands Dr, Mississauga, ON L5K 1H2</p>
+                </div>
               </div>
             </div>
           </div>

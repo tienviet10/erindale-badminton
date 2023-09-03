@@ -76,15 +76,14 @@ const Information = () => {
                 ></path>
               </svg>
               <span className="text-xl font-medium leading-tight text-white">
-                {/* Friday: 6:00pm - 8:00pm (
+                Friday: 6:00pm - 10:00pm (
                 <a
                   className="hover:text-yellow-700 underline"
-                  href="https://www.google.com/maps/place/2524+Bromsgrove+Rd,+Mississauga,+ON+L5J+1L8/@43.5037272,-79.6458246,17z/data=!3m1!4b1!4m5!3m4!1s0x882b44836dba4aaf:0x37453752dc3e9b7d!8m2!3d43.5037272!4d-79.6458246"
+                  href="https://www.google.com/maps/place/Homelands+Sr.+Public+School/@43.5235967,-79.6697627,17z/data=!3m1!4b1!4m6!3m5!1s0x882b439751ed3329:0xb27d53ae8fc0aff2!8m2!3d43.5235967!4d-79.6671878!16s%2Fg%2F1v29cnpg?entry=ttu"
                 >
-                  at Clarkson Secondary School
+                  at Homelands Sr. Public School
                 </a>
-                ) */}
-                Friday: 6:00pm - 8:00pm (TBD)
+                )
               </span>
             </li>
           </ul>
