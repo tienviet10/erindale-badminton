@@ -1,25 +1,25 @@
-import React from 'react';
-import andrew1 from '../assets/andrew1.webp';
-import andrew2 from '../assets/andrew2.webp';
-import izzy1 from '../assets/izzy1.webp';
-import izzy2 from '../assets/izzy2.webp';
-import michael1 from '../assets/michael1.webp';
-import michael2 from '../assets/michael2.webp';
-import sara1 from '../assets/sara1.webp';
-import sara2 from '../assets/sara2.webp';
-import tris2 from '../assets/Tris.webp';
-import tris1 from '../assets/Tris1.webp';
-import ImageIndividual from './ImageIndividual';
+import React from "react";
+import andrew1 from "../assets/andrew1.webp";
+import andrew2 from "../assets/andrew2.webp";
+import michael1 from "../assets/michael1.webp";
+import michael2 from "../assets/michael2.webp";
+import sara1 from "../assets/sara1.webp";
+import sara2 from "../assets/sara2.webp";
+import tris2 from "../assets/Tris.webp";
+import tris1 from "../assets/Tris1.webp";
+import myTran1 from "../assets/myTran1.webp";
+import myTran2 from "../assets/myTran2.webp";
+import ImageIndividual from "./ImageIndividual";
 
 const namePositionMap1 = {
-  'Sara Gautier': ['President', sara1, sara2],
-  'Michael Ho': ['Vice President', michael1, michael2],
+  "Sara Gautier": ["President", sara1, sara2],
+  "Michael Ho": ["Vice President", michael1, michael2],
 };
 
 const namePositionMap2 = {
-  'Izabela Ligieza': ['Secretary', izzy2, izzy1],
-  'Tristan Wu': ['Treasurer', tris1, tris2],
-  'Andrew Lye': ['Equipment Manager', andrew1, andrew2],
+  "My Tran": ["Secretary", myTran1, myTran2],
+  "Tristan Wu": ["Treasurer", tris1, tris2],
+  "Andrew Lye": ["Equipment Manager", andrew1, andrew2],
 };
 
 const Organizers = () => {

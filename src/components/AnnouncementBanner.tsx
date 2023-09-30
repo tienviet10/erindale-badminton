@@ -24,7 +24,8 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
               </svg>
             </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              New season begins September 18!!!
+              No badminton Mon. Oct. 9th, Wed. Oct 11, Wed. Oct 25. See more in
+              Details.
             </p>
           </div>
           <div className="w-full flex sm:mt-0 sm:w-auto justify-center">
