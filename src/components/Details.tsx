@@ -37,10 +37,7 @@ const Details = ({ setOpenedModal }) => {
             </button>
           </div>
           <div className="modal-body relative p-4">
-            <p>
-              No badminton Thanksgiving Mon. Oct. 9th. Cancelations: Wed. Oct
-              11. Wed. Oct 25. Loyola h.s.-school functions
-            </p>
+            <p>No badminton Wed. Dec 13, 2023.</p>
           </div>
           <div className="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
             <button
