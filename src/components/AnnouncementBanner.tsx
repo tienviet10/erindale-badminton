@@ -24,7 +24,8 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
               </svg>
             </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              No badminton Wed. Dec 13, 2023. See more in Details.
+              Happy holidays! NO badminton until Jan. 8, 2024. Accepting guests
+              January 19, 2024.
             </p>
           </div>
           <div className="w-full flex sm:mt-0 sm:w-auto justify-center">

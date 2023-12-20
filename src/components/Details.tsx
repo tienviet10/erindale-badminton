@@ -37,7 +37,10 @@ const Details = ({ setOpenedModal }) => {
             </button>
           </div>
           <div className="modal-body relative p-4">
-            <p>No badminton Wed. Dec 13, 2023.</p>
+            <p>
+              Happy holidays! NO badminton until Jan. 8, 2024. Accepting guests
+              January 19, 2024.
+            </p>
           </div>
           <div className="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
             <button
