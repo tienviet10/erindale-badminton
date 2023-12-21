@@ -19,7 +19,7 @@ const Pricing = () => {
                   <strong>Guest</strong>
                 </p>
                 <h3 className="text-2xl mb-6">
-                  <strong>$ 6</strong>
+                  <strong>$ 7</strong>
                   <small className="text-gray-900 text-md">/drop-in</small>
                 </h3>
               </div>
