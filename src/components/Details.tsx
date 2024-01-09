@@ -37,10 +37,7 @@ const Details = ({ setOpenedModal }) => {
             </button>
           </div>
           <div className="modal-body relative p-4">
-            <p>
-              Happy holidays! NO badminton until Jan. 8, 2024. Accepting guests
-              January 19, 2024.
-            </p>
+            <p>Cancellation: Loyola-Wed. Jan. 10, 2024 gym resurfacing.</p>
           </div>
           <div className="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
             <button
