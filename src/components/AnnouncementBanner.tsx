@@ -24,7 +24,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
               </svg>
             </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              Cancellation: Loyola-Wed. Jan. 10, 2024 gym resurfacing.
+              Cancellation: Loyola Jan. 17, 2024 gym resurfacing.
             </p>
           </div>
           <div className="w-full flex sm:mt-0 sm:w-auto justify-center">
