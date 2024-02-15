@@ -37,7 +37,10 @@ const Details = ({ setOpenedModal }) => {
             </button>
           </div>
           <div className="modal-body relative p-4">
-            <p>Cancellation: Loyola Jan. 17, 2024 gym resurfacing.</p>
+            <p>
+              Cancellations: Loyola, Wed. Feb. 14, and Erindale, Mon. Feb. 19
+              (Family Day)
+            </p>
           </div>
           <div className="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
             <button
