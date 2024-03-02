@@ -24,8 +24,8 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
               </svg>
             </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              Cancellations: Loyola, Wed. Feb. 14, and Erindale, Mon. Feb. 19
-              (Family Day)
+              No badminton, March break week: 11, 13, 15. Easter: Fri. Mar. 29,
+              Mon. Apr. 1
             </p>
           </div>
           <div className="w-full flex sm:mt-0 sm:w-auto justify-center">

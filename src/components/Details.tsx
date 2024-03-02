@@ -38,8 +38,8 @@ const Details = ({ setOpenedModal }) => {
           </div>
           <div className="modal-body relative p-4">
             <p>
-              Cancellations: Loyola, Wed. Feb. 14, and Erindale, Mon. Feb. 19
-              (Family Day)
+              No badminton, March break week: 11, 13, 15. Easter: Fri. Mar. 29,
+              Mon. Apr. 1
             </p>
           </div>
           <div className="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
