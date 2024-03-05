@@ -24,8 +24,8 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
               </svg>
             </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              No badminton, March break week: 11, 13, 15. Easter: Fri. Mar. 29,
-              Mon. Apr. 1
+              No badminton: March break week: 11, 13, 15. No permit: Wed. Mar.
+              27. Easter: Fri. Mar. 29, Mon. Apr. 1
             </p>
           </div>
           <div className="w-full flex sm:mt-0 sm:w-auto justify-center">
