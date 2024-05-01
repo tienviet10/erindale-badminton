@@ -38,8 +38,8 @@ const Details = ({ setOpenedModal }) => {
           </div>
           <div className="modal-body relative p-4">
             <p>
-              No badminton: March break week: 11, 13, 15. No permit: Wed. Mar.
-              27. Easter: Fri. Mar. 29, Mon. Apr. 1
+              Cancelations: NO badminton Victoria Day Mon. May 20, NO permit:
+              Fri. May 10, Wed. June 5 Last day of season play Fri. June 7
             </p>
           </div>
           <div className="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
