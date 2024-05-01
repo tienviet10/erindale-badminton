@@ -24,8 +24,8 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
               </svg>
             </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              No badminton: March break week: 11, 13, 15. No permit: Wed. Mar.
-              27. Easter: Fri. Mar. 29, Mon. Apr. 1
+              Cancelations: NO badminton Victoria Day Mon. May 20, NO permit:
+              Fri. May 10, Wed. June 5 Last day of season play Fri. June 7
             </p>
           </div>
           <div className="w-full flex sm:mt-0 sm:w-auto justify-center">
