@@ -37,6 +37,10 @@ const Details = ({ setOpenedModal }) => {
             </button>
           </div>
           <div className="modal-body relative p-4">
+            <p>
+              Cancellations: NO badminton Victoria Day Mon. May 20, NO permit:
+              Wed. June 5. Last day of season play Fri. June 7.
+            </p>
             <p>OPEN House until June 7. Wed and Fri.</p>
           </div>
           <div className="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
