@@ -1,16 +1,23 @@
-import badmintonImg from '../assets/erindale-badminton-yellow.webp';
-import React from 'react';
+import badmintonImg from "../assets/erindale-badminton-yellow.webp";
+import React from "react";
 
 const Footer = () => {
   return (
     <footer className="text-center bg-application-color text-white">
       <div className="flex justify-between px-6 pt-6 w-full">
-        <img
-          src={badmintonImg}
-          className="max-h-10 ml-2 lg:ml-10"
-          alt="Badminton Image"
-        />
-        {/* <div className="text-xl lg:text-2xl h-9 flex flex-col justify-center text-text-application-color font-bold">Erindale Badminton</div> */}
+        <div className="flex flex-row">
+          <img
+            src={badmintonImg}
+            className="max-h-10 ml-2 lg:ml-10"
+            alt="Badminton Image"
+          />
+          <a
+            href="https://firebasestorage.googleapis.com/v0/b/dh-website-practice.appspot.com/o/images%2FFinancial%20Statement%20-%201July2022%20-%20%2030%20June2023-APPROVED.pdf?alt=media"
+            className="text-md lg:text-lg h-9 flex flex-col ml-6 justify-center align-middle items-center underline cursor-pointer"
+          >
+            Club Reports
+          </a>
+        </div>
         <div className="flex justify-center mb-6 ">
           <a
             href="https://www.facebook.com/profile.php?id=100088558296408"
@@ -50,9 +57,9 @@ const Footer = () => {
 
       <div
         className="hidden lg:flex justify-center p-4 text-xs lg:text-md"
-        style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}
+        style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
-        Copyright © 2022-2023 Erindale Badminton - All Rights Reserved.
+        Copyright © 2024 Erindale Badminton - All Rights Reserved.
       </div>
     </footer>
   );

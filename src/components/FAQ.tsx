@@ -1,5 +1,5 @@
-import infoIcon from '../assets/info.png';
-import React from 'react';
+import infoIcon from "../assets/info.png";
+import React from "react";
 
 const FAQ = () => {
   return (
@@ -70,7 +70,7 @@ const FAQ = () => {
                     constitutes a serious liability to the club.
                   </p>
                 </div>
-                <div className="">
+                <div className="mb-10">
                   <h3 className="flex items-center mb-4 text-xl font-medium text-gray-900 dark:text-application-color">
                     <img
                       className="flex-shrink-0 mr-2 w-5 h-5 text-black"
@@ -87,6 +87,35 @@ const FAQ = () => {
                     email address.
                   </p>
                 </div>
+                {/* <div className="">
+                  <h3 className="flex items-center mb-4 text-xl font-medium text-gray-900 dark:text-application-color">
+                    <img
+                      className="flex-shrink-0 mr-2 w-5 h-5 text-black"
+                      src={infoIcon}
+                      alt="FAQ icon"
+                    />
+                    Where can I find more resources about the club?
+                  </h3>
+                  <p className="text-black text-lg">Documents: </p>
+                  <ul className="list-disc ml-4 text-lg">
+                    <li>
+                      <a
+                        href="https://drive.google.com/file/d/1si7iv-zH2nsAZNH4miL-7r6tizZoFmdG/view"
+                        className="underline"
+                      >
+                        Registration Form
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://firebasestorage.googleapis.com/v0/b/dh-website-practice.appspot.com/o/images%2FFinancial%20Statement%20-%201July2022%20-%20%2030%20June2023-APPROVED.pdf?alt=media"
+                        className="underline"
+                      >
+                        Erindale Club Report
+                      </a>
+                    </li>
+                  </ul>
+                </div> */}
               </div>
             </div>
           </div>
