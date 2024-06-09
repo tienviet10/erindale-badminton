@@ -15,7 +15,7 @@ const Footer = () => {
             href="https://firebasestorage.googleapis.com/v0/b/dh-website-practice.appspot.com/o/images%2FFinancial%20Statement%20-%201July2022%20-%20%2030%20June2023-APPROVED.pdf?alt=media"
             className="text-md lg:text-lg h-9 flex flex-col ml-6 justify-center align-middle items-center underline cursor-pointer"
           >
-            Club Reports
+            Membership Resources
           </a>
         </div>
         <div className="flex justify-center mb-6 ">
