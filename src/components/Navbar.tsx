@@ -163,7 +163,7 @@ const Navbar = () => {
         )}
       </nav>
       <AnnouncementBanner setOpenedModal={setOpenedModal} />
-      {openedModal && <Details setOpenedModal={setOpenedModal} />}
+      {openedModal && <Details setOpenedModal={setOpenedModal} from="navbar" />}
     </div>
   );
 };

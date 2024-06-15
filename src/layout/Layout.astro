@@ -39,6 +39,6 @@ const { title = 'Erindale Badminton' } = Astro.props as Props;
   <body>
     <Navbar client:visible/>
     <slot />
-    <Footer />  
+    <Footer client:visible/>  
   </body>
 </html>
