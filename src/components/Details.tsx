@@ -4,7 +4,8 @@ const Details = ({ setOpenedModal, from }) => {
   return (
     <div
       id="defaultModal"
-      className="fixed top-0 left-0 right-0 w-full p-4 md:inset-0 h-modal md:h-full z-200 bg-gray-600 bg-opacity-50"
+      className="fixed top-0 left-0 right-0 w-full p-4 md:inset-0 h-modal md:h-full bg-gray-600 bg-opacity-50"
+      style={{ zIndex: 100 }}
     >
       <div className="relative mx-auto w-full h-screen max-w-2xl flex flex-col justify-center items-center">
         <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
