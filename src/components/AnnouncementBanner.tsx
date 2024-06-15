@@ -24,9 +24,8 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
               </svg>
             </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              Cancellations: NO badminton Victoria Day Mon. May 20, NO permit:
-              Wed. June 5. Last day of season play Fri. June 7. OPEN House until
-              June 7. Wed and Fri.
+              Accepting limited new memberships for September 2024. Have a great
+              summer!
             </p>
           </div>
           <div className="w-full flex sm:mt-0 sm:w-auto justify-center">

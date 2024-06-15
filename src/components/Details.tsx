@@ -40,74 +40,90 @@ const Details = ({ setOpenedModal, from }) => {
             {from === "navbar" ? (
               <>
                 <p>
-                  Cancellations: NO badminton Victoria Day Mon. May 20, NO
-                  permit: Wed. June 5. Last day of season play Fri. June 7.
+                  Accepting limited new memberships for September 2024. Have a
+                  great summer!
                 </p>
-                <p>OPEN House until June 7. Wed and Fri.</p>
               </>
             ) : (
-              <table className="table-auto border-collapse border-2 border-gray-500 w-full">
-                <thead>
-                  <tr>
-                    <th className="border-2 border-gray-500 px-4 py-2"></th>
-                    <th className="border-2 border-gray-500 px-4 py-2">2023</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td className="border-2 border-gray-500 px-4 py-2">
-                      Financial Report
-                    </td>
-                    <td className="border-2 border-gray-500 px-4 py-2 text-center">
-                      <a
-                        href="https://firebasestorage.googleapis.com/v0/b/dh-website-practice.appspot.com/o/images%2FFinancial%20Statement%20-%201July2022%20-%20%2030%20June2023-APPROVED.pdf?alt=media"
-                        className="text-blue-500"
-                      >
-                        show
-                      </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="border-2 border-gray-500 px-4 py-2">
-                      Auditor Report
-                    </td>
-                    <td className="border-2 border-gray-500 px-4 py-2 text-center">
-                      <a
-                        href="https://firebasestorage.googleapis.com/v0/b/dh-website-practice.appspot.com/o/images%2FErindale%20Badminton%20Club-Auditors%20Report%202022-23.pdf?alt=media"
-                        className="text-blue-500"
-                      >
-                        show
-                      </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="border-2 border-gray-500 px-4 py-2">
-                      By Law
-                    </td>
-                    <td className="border-2 border-gray-500 px-4 py-2 text-center">
-                      <a
-                        href="https://firebasestorage.googleapis.com/v0/b/dh-website-practice.appspot.com/o/images%2FThe%20By%20Law%20-%20EBC.pdf?alt=media"
-                        className="text-blue-500"
-                      >
-                        show
-                      </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="border-2 border-gray-500 px-4 py-2">
-                      EBC's AGM
-                    </td>
-                    <td className="border-2 border-gray-500 px-4 py-2 text-center">
-                      <a
-                        href="https://firebasestorage.googleapis.com/v0/b/dh-website-practice.appspot.com/o/images%2FEBC's%20AGM%20-%20December%204%202023.pdf?alt=media"
-                        className="text-blue-500"
-                      >
-                        show
-                      </a>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+              <div className="overflow-auto md:overflow-visible">
+                <table className="table-auto border-collapse border-2 border-gray-500 w-full">
+                  <thead>
+                    <tr>
+                      <th className="border-2 border-gray-500 px-4 py-2"></th>
+                      <th className="border-2 border-gray-500 px-4 py-2">
+                        2023
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td className="border-2 border-gray-500 px-4 py-2">
+                        Financial Report
+                      </td>
+                      <td className="border-2 border-gray-500 px-4 py-2 text-center">
+                        <a
+                          href="https://firebasestorage.googleapis.com/v0/b/dh-website-practice.appspot.com/o/images%2FFinancial%20Statement%20-%201July2022%20-%20%2030%20June2023-APPROVED.pdf?alt=media"
+                          className="text-blue-500"
+                        >
+                          show
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="border-2 border-gray-500 px-4 py-2">
+                        Auditor Report
+                      </td>
+                      <td className="border-2 border-gray-500 px-4 py-2 text-center">
+                        <a
+                          href="https://firebasestorage.googleapis.com/v0/b/dh-website-practice.appspot.com/o/images%2FErindale%20Badminton%20Club-Auditors%20Report%202022-23.pdf?alt=media"
+                          className="text-blue-500"
+                        >
+                          show
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="border-2 border-gray-500 px-4 py-2">
+                        By Law
+                      </td>
+                      <td className="border-2 border-gray-500 px-4 py-2 text-center">
+                        <a
+                          href="https://firebasestorage.googleapis.com/v0/b/dh-website-practice.appspot.com/o/images%2FThe%20By%20Law%20-%20EBC.pdf?alt=media"
+                          className="text-blue-500"
+                        >
+                          show
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="border-2 border-gray-500 px-4 py-2">
+                        EBC's AGM
+                      </td>
+                      <td className="border-2 border-gray-500 px-4 py-2 text-center">
+                        <a
+                          href="https://firebasestorage.googleapis.com/v0/b/dh-website-practice.appspot.com/o/images%2FEBC's%20AGM%20-%20December%204%202023.pdf?alt=media"
+                          className="text-blue-500"
+                        >
+                          show
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="border-2 border-gray-500 px-4 py-2">
+                        Registration Form
+                      </td>
+                      <td className="border-2 border-gray-500 px-4 py-2 text-center">
+                        <a
+                          href="https://drive.google.com/file/d/1si7iv-zH2nsAZNH4miL-7r6tizZoFmdG/view?usp=sharing"
+                          className="text-blue-500"
+                        >
+                          show
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             )}
           </div>
           <div className="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
