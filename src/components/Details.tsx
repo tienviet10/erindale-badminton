@@ -54,6 +54,9 @@ const Details = ({ setOpenedModal, from }) => {
                       <th className="border-2 border-gray-500 px-4 py-2">
                         2023
                       </th>
+                      <th className="border-2 border-gray-500 px-4 py-2">
+                        2022
+                      </th>
                     </tr>
                   </thead>
                   <tbody>
@@ -64,6 +67,14 @@ const Details = ({ setOpenedModal, from }) => {
                       <td className="border-2 border-gray-500 px-4 py-2 text-center">
                         <a
                           href="https://firebasestorage.googleapis.com/v0/b/dh-website-practice.appspot.com/o/images%2FFinancial%20Statement%20-%201July2022%20-%20%2030%20June2023-APPROVED.pdf?alt=media"
+                          className="text-blue-500"
+                        >
+                          show
+                        </a>
+                      </td>
+                      <td className="border-2 border-gray-500 px-4 py-2 text-center">
+                        <a
+                          href="https://firebasestorage.googleapis.com/v0/b/dh-website-practice.appspot.com/o/images%2FFinancial%20Statement%20-%201July2021%20-%20%2030%20June2022-FINAL.pdf?alt=media"
                           className="text-blue-500"
                         >
                           show
@@ -82,14 +93,9 @@ const Details = ({ setOpenedModal, from }) => {
                           show
                         </a>
                       </td>
-                    </tr>
-                    <tr>
-                      <td className="border-2 border-gray-500 px-4 py-2">
-                        By Law
-                      </td>
                       <td className="border-2 border-gray-500 px-4 py-2 text-center">
                         <a
-                          href="https://firebasestorage.googleapis.com/v0/b/dh-website-practice.appspot.com/o/images%2FThe%20By%20Law%20-%20EBC.pdf?alt=media"
+                          href="https://firebasestorage.googleapis.com/v0/b/dh-website-practice.appspot.com/o/images%2FErindale%20Badminton%20Club-Auditors%20Report%202021-22.pdf?alt=media"
                           className="text-blue-500"
                         >
                           show
@@ -108,6 +114,28 @@ const Details = ({ setOpenedModal, from }) => {
                           show
                         </a>
                       </td>
+                      <td className="border-2 border-gray-500 px-4 py-2 text-center">
+                        <a
+                          href="https://firebasestorage.googleapis.com/v0/b/dh-website-practice.appspot.com/o/images%2F2022-Dec-05%208-37pm%20-%20Erindale%20Badminton%20Club%20Meeting%20Minutes.pdf?alt=media"
+                          className="text-blue-500"
+                        >
+                          show
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="border-2 border-gray-500 px-4 py-2">
+                        By Law
+                      </td>
+                      <td className="border-2 border-gray-500 px-4 py-2 text-center">
+                        <a
+                          href="https://firebasestorage.googleapis.com/v0/b/dh-website-practice.appspot.com/o/images%2FThe%20By%20Law%20-%20EBC.pdf?alt=media"
+                          className="text-blue-500"
+                        >
+                          show
+                        </a>
+                      </td>
+                      <td className="border-2 border-gray-500 px-4 py-2 text-center"></td>
                     </tr>
                     <tr>
                       <td className="border-2 border-gray-500 px-4 py-2">
@@ -121,6 +149,7 @@ const Details = ({ setOpenedModal, from }) => {
                           show
                         </a>
                       </td>
+                      <td className="border-2 border-gray-500 px-4 py-2 text-center"></td>
                     </tr>
                   </tbody>
                 </table>
