@@ -19,38 +19,38 @@ const Contact = () => {
     }));
   };
 
-  const submitContactInfo = async (e) => {
-    if (
-      contactInfo.firstName !== "" &&
-      contactInfo.lastName !== "" &&
-      contactInfo.email !== "" &&
-      contactInfo.message !== ""
-    ) {
-      e.preventDefault();
-      setSubmitButtonText("Sending");
-      try {
-        await fetch(
-          "https://getform.io/f/05849952-fe73-4860-994d-9dcb33ee3da0",
-          {
-            method: "post",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-              "first-name": contactInfo.firstName,
-              "last-name": contactInfo.lastName,
-              "email-address": contactInfo.email,
-              telephone: contactInfo.tel,
-              message: contactInfo.message,
-            }),
-          }
-        );
-        setContactInfo(initContactInfo);
-        setSubmitButtonText("Send Message");
-      } catch (error) {
-        setSubmitButtonText("Send Message");
-        throw new Error(`Something went wrong: ${error.message || error}`);
-      }
-    }
-  };
+  // const submitContactInfo = async (e) => {
+  //   if (
+  //     contactInfo.firstName !== "" &&
+  //     contactInfo.lastName !== "" &&
+  //     contactInfo.email !== "" &&
+  //     contactInfo.message !== ""
+  //   ) {
+  //     e.preventDefault();
+  //     setSubmitButtonText("Sending");
+  //     try {
+  //       await fetch(
+  //         "https://getform.io/f/05849952-fe73-4860-994d-9dcb33ee3da0",
+  //         {
+  //           method: "post",
+  //           headers: { "Content-Type": "application/json" },
+  //           body: JSON.stringify({
+  //             "first-name": contactInfo.firstName,
+  //             "last-name": contactInfo.lastName,
+  //             "email-address": contactInfo.email,
+  //             telephone: contactInfo.tel,
+  //             message: contactInfo.message,
+  //           }),
+  //         }
+  //       );
+  //       setContactInfo(initContactInfo);
+  //       setSubmitButtonText("Send Message");
+  //     } catch (error) {
+  //       setSubmitButtonText("Send Message");
+  //       throw new Error(`Something went wrong: ${error.message || error}`);
+  //     }
+  //   }
+  // };
 
   return (
     <div className="bg-gray-100 flex justify-center w-full" id="Contact">
@@ -62,10 +62,15 @@ const Contact = () => {
             </h2>
             <div className="flex flex-col border-t border-gray-900 mt-8 lg:flex-row">
               <form
-                //action=""
+                action="https://api.web3forms.com/submit"
                 className="space-y-8 lg:mb-8 w-full lg:w-[70%] mr-0 lg:mr-10 "
                 method="POST"
               >
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="1bb0b40c-878f-46f9-a5e6-f0477b7bf9d6"
+                />
                 <div className="md:flex items-center mt-12">
                   <div className="w-full md:w-[50%] flex flex-col">
                     <label
@@ -175,7 +180,7 @@ const Contact = () => {
                   disabled={submitButtonText === "Sending"}
                   type="submit"
                   className="py-3 px-5 text-md font-medium text-center text-semibold border border-application-color text-application-color rounded-lg bg-primary-700 sm:w-fit hover:bg-application-color hover:text-white focus:ring-4 focus:outline-none focus:ring-primary-300"
-                  onClick={(e) => submitContactInfo(e)}
+                  // onClick={(e) => submitContactInfo(e)}
                 >
                   {submitButtonText}
                 </button>
