@@ -28,7 +28,7 @@ const Information = () => {
                 ></path>
               </svg>
               <span className="text-xl font-medium leading-tight text-white">
-                Monday: 8:00pm - 10:00pm (
+                Monday: 6:00pm - 10:00pm (
                 <a
                   className="hover:text-yellow-700 underline"
                   href="https://www.google.ca/maps/place/Erindale+Secondary+School/@43.5389142,-79.668638,17z/data=!4m5!3m4!1s0x882b43ec1f134c83:0x8ac7f897ae4a3667!8m2!3d43.5389376!4d-79.6665244?hl=en"
@@ -57,7 +57,7 @@ const Information = () => {
                   className="hover:text-yellow-700 underline"
                   href="https://goo.gl/maps/nKiGknmUqqUthmyv6"
                 >
-                  at Loyola Secondary School
+                  at Loyola Catholic Secondary School
                 </a>
                 )
               </span>
@@ -76,12 +76,12 @@ const Information = () => {
                 ></path>
               </svg>
               <span className="text-xl font-medium leading-tight text-white">
-                Friday: 6:00pm - 10:00pm (
+                Friday: 8:00pm - 10:00pm (
                 <a
                   className="hover:text-yellow-700 underline"
-                  href="https://www.google.com/maps/place/Homelands+Sr.+Public+School/@43.5235967,-79.6697627,17z/data=!3m1!4b1!4m6!3m5!1s0x882b439751ed3329:0xb27d53ae8fc0aff2!8m2!3d43.5235967!4d-79.6671878!16s%2Fg%2F1v29cnpg?entry=ttu"
+                  href="https://www.google.ca/maps/place/Erindale+Secondary+School/@43.5389142,-79.668638,17z/data=!4m5!3m4!1s0x882b43ec1f134c83:0x8ac7f897ae4a3667!8m2!3d43.5389376!4d-79.6665244?hl=en"
                 >
-                  at Homelands Sr. Public School
+                  at Erindale Secondary School
                 </a>
                 )
               </span>
