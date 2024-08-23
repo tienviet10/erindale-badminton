@@ -229,7 +229,7 @@ const Contact = () => {
                     <strong className=" text-application-color">
                       Monday Location:{" "}
                     </strong>
-                    8-10pm
+                    6-10pm
                   </p>
                   <p>Erindale Secondary School</p>
                   <p>2021 Dundas St W, Mississauga, ON L5K 1R2</p>
@@ -249,10 +249,10 @@ const Contact = () => {
                     <strong className=" text-application-color">
                       Friday Location:{" "}
                     </strong>
-                    6-10pm
+                    8-10pm
                   </p>
-                  <p>Homelands Sr. Public School</p>
-                  <p>2420 Homelands Dr, Mississauga, ON L5K 1H2</p>
+                  <p>Erindale Secondary School</p>
+                  <p>2021 Dundas St W, Mississauga, ON L5K 1R2</p>
                 </div>
               </div>
             </div>
