@@ -5,8 +5,8 @@ import michael1 from "../assets/michael1.webp";
 import michael2 from "../assets/michael2.webp";
 import sara1 from "../assets/sara1.webp";
 import sara2 from "../assets/sara2.webp";
-import tris2 from "../assets/Tris.webp";
-import tris1 from "../assets/Tris1.webp";
+import freddy1 from "../assets/freddy1.webp";
+import freddy2 from "../assets/freddy2.webp";
 import Kevin1 from "../assets/Kevin1.webp";
 import Kevin2 from "../assets/Kevin2.webp";
 import ImageIndividual from "./ImageIndividual";
@@ -17,9 +17,9 @@ const namePositionMap1 = {
 };
 
 const namePositionMap2 = {
-  "Kevin Fok": ["Secretary", Kevin1, Kevin2],
-  "Tristan Wu": ["Treasurer", tris1, tris2],
   "Andrew Lye": ["Equipment Manager", andrew1, andrew2],
+  "Kevin Fok": ["Treasurer", Kevin1, Kevin2],
+  "Freddy Goh": ["Secretary", freddy1, freddy2],
 };
 
 const Organizers = () => {
