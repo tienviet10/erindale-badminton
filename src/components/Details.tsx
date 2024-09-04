@@ -41,8 +41,7 @@ const Details = ({ setOpenedModal, from }) => {
             {from === "navbar" ? (
               <>
                 <p>
-                  Accepting limited new memberships for September 2024. Have a
-                  great summer!
+                  New season starts Monday September 16, 2024. See you soon! 
                 </p>
               </>
             ) : (
