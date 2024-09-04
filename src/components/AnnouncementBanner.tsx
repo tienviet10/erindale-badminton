@@ -24,8 +24,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
               </svg>
             </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              Accepting limited new memberships for September 2024. Have a great
-              summer!
+              Our season starts September 16, 2024. See you soon!
             </p>
           </div>
           <div className="w-full flex sm:mt-0 sm:w-auto justify-center">
