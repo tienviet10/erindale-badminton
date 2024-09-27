@@ -41,7 +41,7 @@ const Details = ({ setOpenedModal, from }) => {
             {from === "navbar" ? (
               <>
                 <p>We run Monday, Wednesday, and Friday excluding any holidays and closures dictated by the Peel and Catholic school boards.</p>
-                <br>
+                <br></br>
                 <p>Cancellations: </p>
                 <ul>
                   <li>Wednesday, October 16, 2024</li>
