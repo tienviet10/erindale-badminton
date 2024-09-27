@@ -40,13 +40,12 @@ const Details = ({ setOpenedModal, from }) => {
           <div className="modal-body relative p-4">
             {from === "navbar" ? (
               <>
-                <p>
-                   We run Monday, Wednesday, and Friday excluding any holidays and closures dictated by the Peel and Catholic school boards. 
-                </p>
-                <p>
-                  Cancellations: 
-                </p>
-                <ul>Wed. Oct. 16, 2024</ul>
+                <p>We run Monday, Wednesday, and Friday excluding any holidays and closures dictated by the Peel and Catholic school boards.</p>
+                <br>
+                <p>Cancellations: </p>
+                <ul>
+                  <li>Wed. Oct. 16, 2024</li>
+                </ul>
               </>
             ) : (
               <div className="overflow-auto md:overflow-visible">
