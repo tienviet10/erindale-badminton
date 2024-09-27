@@ -24,7 +24,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
               </svg>
             </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              Wednesday, October 16th session at Loyola CSS is cancelled! 
+              Cancellation on Wed. Oct. 16 at Loyola CSS! 
             </p>
           </div>
           <div className="w-full flex sm:mt-0 sm:w-auto justify-center">
