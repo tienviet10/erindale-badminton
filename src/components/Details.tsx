@@ -41,7 +41,7 @@ const Details = ({ setOpenedModal, from }) => {
             {from === "navbar" ? (
               <>
                 <p>
-                   Our 2024/2025 season starts September 16, 2024 and continues until June 6, 2025. We run Monday, Wednesday, Friday excluding any holidays and closures dictated by the Peel and Catholic school boards. 
+                   We run Monday, Wednesday, and Friday excluding any holidays and closures dictated by the Peel and Catholic school boards. 
                 </p>
               </>
             ) : (
