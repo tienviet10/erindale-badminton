@@ -24,7 +24,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
               </svg>
             </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              Our season starts September 16, 2024. See you soon!
+              Wednesday, October 16th session at Loyola CSS is cancelled! 
             </p>
           </div>
           <div className="w-full flex sm:mt-0 sm:w-auto justify-center">
