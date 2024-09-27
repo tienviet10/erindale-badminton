@@ -43,6 +43,10 @@ const Details = ({ setOpenedModal, from }) => {
                 <p>
                    We run Monday, Wednesday, and Friday excluding any holidays and closures dictated by the Peel and Catholic school boards. 
                 </p>
+                <p>
+                  Cancellations: 
+                </p>
+                <ul>Wed. Oct. 16, 2024</ul>
               </>
             ) : (
               <div className="overflow-auto md:overflow-visible">
