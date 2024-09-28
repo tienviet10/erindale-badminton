@@ -24,7 +24,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
               </svg>
             </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              Cancellation on Wed. Oct. 16 at Loyola CSS! 
+              No badminton on Mon Oct. 14 and Wed Oct. 16
             </p>
           </div>
           <div className="w-full flex sm:mt-0 sm:w-auto justify-center">
