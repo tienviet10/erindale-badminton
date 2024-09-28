@@ -42,8 +42,9 @@ const Details = ({ setOpenedModal, from }) => {
               <>
                 <p>We run Monday, Wednesday, and Friday excluding any holidays and closures dictated by the Peel and Catholic school boards.</p>
                 <br></br>
-                <p>Cancellations: </p>
+                <p>Holidays and cancellations: </p>
                 <ul>
+                  <li>Monday, October 14, 2024 (Thanksgiving)</li>
                   <li>Wednesday, October 16, 2024</li>
                 </ul>
               </>
