@@ -36,7 +36,6 @@ const galleryTabs = ['Club', 'Halloween', 'Christmas', 'New Year', 'Easter'];
 const imageListMap = {
   Club: [
     Execs20242025,
-    ChristmasGroup2,
     ClubGroup3,
     ChristmasGroup3,
     ChristmasGroup4,
