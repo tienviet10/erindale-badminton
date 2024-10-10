@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Execs20242025 from '../assets/Execs 2024-2025.webp';
 import ChristmasFood4 from '../assets/christmas_food1.webp';
 import ChristmasFood1 from '../assets/christmas_food2.webp';
 import ChristmasFood2 from '../assets/christmas_food3.webp';
@@ -34,6 +35,7 @@ import NewYear6 from '../assets/newyear6.webp';
 const galleryTabs = ['Club', 'Halloween', 'Christmas', 'New Year', 'Easter'];
 const imageListMap = {
   Club: [
+    Execs20242025,
     ChristmasGroup2,
     ClubGroup3,
     ChristmasGroup3,
