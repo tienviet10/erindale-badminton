@@ -44,8 +44,9 @@ const Details = ({ setOpenedModal, from }) => {
                 <br></br>
                 <p>Holidays and cancellations: </p>
                 <ul>
-                  <li>Monday, October 14, 2024 (Thanksgiving)</li>
+                  <li>Friday, November 1, 2024</li>
                   <li>Wednesday, October 16, 2024</li>
+                  <li>Monday, October 14, 2024 (Thanksgiving)</li>
                 </ul>
               </>
             ) : (
