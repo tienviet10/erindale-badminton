@@ -48,6 +48,10 @@ const Details = ({ setOpenedModal, from }) => {
                   <li>Wednesday, October 16, 2024</li>
                   <li>Monday, October 14, 2024 (Thanksgiving)</li>
                 </ul>
+                <br></br>
+                <p>Happy Holidays!</p>
+                <p>Last session of 2024 - Wednesday, Dec 18</p>
+                <p>First session of 2025 - Wednesday, Jan 8</p>
               </>
             ) : (
               <div className="overflow-auto md:overflow-visible">
