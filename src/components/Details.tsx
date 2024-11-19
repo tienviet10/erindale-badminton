@@ -42,16 +42,17 @@ const Details = ({ setOpenedModal, from }) => {
               <>
                 <p>We run Monday, Wednesday, and Friday excluding any holidays and closures dictated by the Peel and Catholic school boards.</p>
                 <br></br>
-                <p>Holidays and cancellations: </p>
+{/*                 <p>Holidays and cancellations: </p>
                 <ul>
                   <li>Friday, November 1, 2024</li>
                   <li>Wednesday, October 16, 2024</li>
                   <li>Monday, October 14, 2024 (Thanksgiving)</li>
-                </ul>
-                <br></br>
+                </ul> */}
                 <p>Happy Holidays!</p>
-                <p>Last session of 2024 - Wednesday, Dec 18</p>
-                <p>First session of 2025 - Wednesday, Jan 8</p>
+                <ul>
+                  <li>Last session of 2024 - Wednesday, Dec 18</li>
+                  <li>First session of 2025 - Wednesday, Jan 8</li>
+                </ul>
               </>
             ) : (
               <div className="overflow-auto md:overflow-visible">
