@@ -23,7 +23,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
                 />
               </svg>
             </span>
-            <p className="w-[90%] ml-3 font-medium text-black my-auto text-semibold" style={{ white-space: 'normal', word-wrap: 'break-word' }}>
+            <p className="w-[90%] ml-3 font-medium text-black my-auto text-semibold break-words">
               AGM Meeting Mon Dec 2 at 8:30pm
             </p>
           </div>
