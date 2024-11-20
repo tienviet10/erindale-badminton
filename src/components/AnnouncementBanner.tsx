@@ -7,7 +7,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
         <div className="flex flex-row items-center justify-between">
           {/* <div className="flex w-[70%] sm:w-[80%]">*/}
             <div className = flex-shrink-0>
-              <span className="rounded-lg bg-yellow-500 p-2 border border-red-800">
+              <span className="rounded-lg bg-yellow-500 p-2 border border-red-800 h-8">
                 <svg
                   className="h-4 w-4 text-red-900"
                   xmlns="http://www.w3.org/2000/svg"
