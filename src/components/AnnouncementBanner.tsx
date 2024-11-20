@@ -33,7 +33,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
             <button
               className="flex items-center justify-center rounded-md border border-transparent bg-red-800 px-4 py-1 text-sm font-medium text-white shadow-sm ml-4"
               onClick={() => setOpenedModal(true)}
-            >
+            > 
               Details
             </button>
           </div>
