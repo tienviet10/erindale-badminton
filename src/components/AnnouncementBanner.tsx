@@ -6,7 +6,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
       <div className="mx-auto max-w-7xl py-2 px-3 sm:px-6 lg:px-8">
         <div className="flex flex-row items-center justify-between">
           {/* <div className="flex w-[70%] sm:w-[80%]">*/}
-            <div className = flex-shirnk-0>
+            <div className = flex-shrink-0>
               <span className="rounded-lg bg-yellow-500 p-2 border border-red-800">
                 <svg
                   className="h-4 w-4 text-red-900"
@@ -29,7 +29,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
               AGM Meeting Mon Dec 2 at 8:30pm
             </p>
           
-          <div className="flex-shrink-0 w-full flex sm:mt-0 sm:w-auto justify-center">
+          <div className="flex-shrink-0 sm:mt-0 sm:w-auto justify-center">
             <button
               className="flex items-center justify-center rounded-md border border-transparent bg-red-800 px-4 py-1 text-sm font-medium text-white shadow-sm ml-4"
               onClick={() => setOpenedModal(true)}
