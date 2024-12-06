@@ -26,7 +26,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
               </span>
             </div>
             <p className="ml-3 font-medium text-black my-auto text-semibold break-words flex-grow">
-              Happy Holidays! Last session of 2024 - Wednesday, Dec 18 and first session of 2025 - Wednesday, Jan 8
+              Wishing you and your family a Happy Holidays! Click for our holiday schedule. 
             </p>
           
           <div className="flex-shrink-0 sm:mt-0 sm:w-auto justify-center">
