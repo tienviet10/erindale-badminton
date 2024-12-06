@@ -26,7 +26,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
               </span>
             </div>
             <p className="ml-3 font-medium text-black my-auto text-semibold break-words flex-grow">
-              AGM Meeting Mon Dec 2 at 8:30pm
+              Happy Holidays! Last session of 2024 - Wednesday, Dec 18 and first session of 2025 - Wednesday, Jan 8
             </p>
           
           <div className="flex-shrink-0 sm:mt-0 sm:w-auto justify-center">
