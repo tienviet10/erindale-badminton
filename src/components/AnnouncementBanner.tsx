@@ -26,7 +26,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
               </span>
             </div>
             <p className="ml-3 font-medium text-black my-auto text-semibold break-words flex-grow">
-              Wishing you and your family a Happy Holidays! Click for our holiday schedule. 
+              Happy Holidays! Click for our holiday schedule. 
             </p>
           
           <div className="flex-shrink-0 sm:mt-0 sm:w-auto justify-center">
