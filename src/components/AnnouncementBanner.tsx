@@ -24,7 +24,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
                 </svg>
               </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              Happy Holidays! Click for our holiday schedule. 
+              Wishing you and your family a happy holiday and see you in the new year!
             </p>
           </div>
 
