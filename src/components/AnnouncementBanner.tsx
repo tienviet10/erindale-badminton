@@ -6,7 +6,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
       <div className="mx-auto max-w-7xl py-2 px-3 sm:px-6 lg:px-8">
         <div className="flex flex-row items-center justify-between">
           {/* <div className="flex w-[70%] sm:w-[80%]">*/}
-            <div className = "flex-shrink-0">
+            <div>
               <span className="rounded-lg bg-yellow-500 p-2 border border-red-800 h-8">
                 <svg
                   className="h-4 w-4 text-red-900"
