@@ -24,11 +24,11 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
                 </svg>
               </span>
             </div>
-            <p className="ml-3 font-medium text-black my-auto text-semibold break-words flex-grow">
+            <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
               Happy Holidays! Click for our holiday schedule. 
             </p>
           
-          <div className="flex-shrink-0 sm:mt-0 sm:w-auto justify-center">
+          <div className="w-full flex sm:mt-0 sm:w-auto justify-center">
             <button
               className="flex items-center justify-center rounded-md border border-transparent bg-red-800 px-4 py-1 text-sm font-medium text-white shadow-sm ml-4"
               onClick={() => setOpenedModal(true)}
