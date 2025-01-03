@@ -78,7 +78,7 @@ const Details = ({ setOpenedModal, from }) => {
                       </td>
                       <td className="border-2 border-gray-500 px-4 py-2 text-center">
                         <a
-                          href=" "
+                          href="https://drive.google.com/file/d/1zvq1fyLv0QdqYZBrF5z8kHnD7Q1okZXW/view?usp=sharing"
                           className="text-blue-500"
                         >
                           show
@@ -107,7 +107,7 @@ const Details = ({ setOpenedModal, from }) => {
                       </td>
                       <td className="border-2 border-gray-500 px-4 py-2 text-center">
                         <a
-                          href=" "
+                          href="https://drive.google.com/file/d/17v6LMNj5jtUxFqAltUtwuGw6rdmImvsi/view?usp=sharing"
                           className="text-blue-500"
                         >
                           show
@@ -165,10 +165,10 @@ const Details = ({ setOpenedModal, from }) => {
                       </td>
                       <td className="border-2 border-gray-500 px-4 py-2 text-center">
                         <a
-                          href=" "
+                          href="https://firebasestorage.googleapis.com/v0/b/dh-website-practice.appspot.com/o/images%2FThe%20By%20Law%20-%20EBC.pdf?alt=media"
                           className="text-blue-500"
                         >
-                          ""
+                          show
                         </a>
                       </td>
                       <td className="border-2 border-gray-500 px-4 py-2 text-center">
