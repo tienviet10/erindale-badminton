@@ -52,6 +52,7 @@ const Details = ({ setOpenedModal, from }) => {
                 <ul>
                   <li>Wednesday, February 26, 2025</li>
                   <li>Monday, February 17, 2025 (Family Day)</li>
+                  <li>Wednesday, February 12, 2025</li>
                   <li>Wednesday, January 8, 2025</li>
                 </ul>
               </>
