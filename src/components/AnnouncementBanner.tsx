@@ -24,7 +24,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
                 </svg>
               </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              No session Wed. Feb 12, Mon. Feb 17, and Wed. Feb 26.
+              Session cancelled Wed. Feb 26 and Wed. Mar 26
             </p>
           </div>
 
