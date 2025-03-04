@@ -24,7 +24,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
                 </svg>
               </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              Session cancelled Wed. Feb 26 and Wed. Mar 26
+              No badminton M Mar 10, W Mar 12, and F Mar 14 for March Break! 
             </p>
           </div>
 
