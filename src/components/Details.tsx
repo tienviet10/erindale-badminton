@@ -50,6 +50,9 @@ const Details = ({ setOpenedModal, from }) => {
                 </ul> */}
                 <p>Holidays and cancellations: </p>
                 <ul>
+                  <li>Wednesday, May 7, 2025</li>
+                  <li>Monday, April 21, 2025 (Easter Monday)</li>
+                  <li>Friday, April 18, 2025 (Good Friday)</li>
                   <li>Wednesday, March 26, 2025</li>
                   <li>Wednesday, March 14, 2025 (March Break)</li>
                   <li>Wednesday, March 12, 2025 (March Break)</li>
