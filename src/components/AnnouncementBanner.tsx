@@ -24,7 +24,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
                 </svg>
               </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              No badminton M Mar 10, W Mar 12, and F Mar 14 for March Break! 
+              No badminton Wed Mar 26, Fri Apr 18 (Good Friday), Apr 21 (Easter Monday), Wed May 7! 
             </p>
           </div>
 
