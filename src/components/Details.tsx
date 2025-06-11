@@ -40,30 +40,15 @@ const Details = ({ setOpenedModal, from }) => {
           <div className="modal-body relative p-4">
             {from === "navbar" ? (
               <>
-                <p>We run Monday, Wednesday, and Friday excluding any holidays and closures dictated by the Peel and Catholic school boards.</p>
+{/*             <p>We run Monday, Wednesday, and Friday excluding any holidays and closures dictated by the Peel and Catholic school boards.</p>
                 <br></br>
-{/*                 <p>Holidays and cancellations: </p>
+                <p>Holidays and cancellations: </p>
                 <ul>
                   <li>Friday, November 1, 2024</li>
                   <li>Wednesday, October 16, 2024</li>
                   <li>Monday, October 14, 2024 (Thanksgiving)</li>
                 </ul> */}
-                <p>Holidays and cancellations: </p>
-                <ul>
-                  <li>Wednesday, May 21, 2025</li>
-                  <li>Wednesday, May 7, 2025</li>
-                  <li>Monday, April 28, 2025 (Election Day)</li>
-                  <li>Monday, April 21, 2025 (Easter Monday)</li>
-                  <li>Friday, April 18, 2025 (Good Friday)</li>
-                  <li>Wednesday, March 26, 2025</li>
-                  <li>Wednesday, March 14, 2025 (March Break)</li>
-                  <li>Wednesday, March 12, 2025 (March Break)</li>
-                  <li>Monday, March 10, 2025 (March Break)</li>
-                  <li>Wednesday, February 26, 2025</li>
-                  <li>Monday, February 17, 2025 (Family Day)</li>
-                  <li>Wednesday, February 12, 2025</li>
-                  <li>Wednesday, January 8, 2025</li>
-                </ul>
+                <p>We'll be back in September. Now accepting new memberships for the 2025/2026 year. Email erindale.badminton@gmail.com </p>
               </>
             ) : (
               <div className="overflow-auto md:overflow-visible">
