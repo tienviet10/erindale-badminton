@@ -24,7 +24,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
                 </svg>
               </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              No badminton Mon Apr 28, Wed May 7, Wed May 21
+              Have a good summer EBC members! 
             </p>
           </div>
 
