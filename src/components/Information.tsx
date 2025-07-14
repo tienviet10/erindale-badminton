@@ -31,7 +31,7 @@ const Information = () => {
                 Monday: 6:00pm - 10:00pm (
                 <a
                   className="hover:text-yellow-700 underline"
-                  href="https://www.google.ca/maps/place/Erindale+Secondary+School/@43.5389142,-79.668638,17z/data=!4m5!3m4!1s0x882b43ec1f134c83:0x8ac7f897ae4a3667!8m2!3d43.5389376!4d-79.6665244?hl=en"
+                  href="https://maps.app.goo.gl/DaR9jupKaUuRvzAc9"
                 >
                   at John Fraser Secondary School
                 </a>
