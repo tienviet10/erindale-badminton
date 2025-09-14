@@ -48,7 +48,12 @@ const Details = ({ setOpenedModal, from }) => {
                   <li>Wednesday, October 16, 2024</li>
                   <li>Monday, October 14, 2024 (Thanksgiving)</li>
                 </ul> */}
-                <p>We'll be back in September. Now accepting new memberships for the 2025/2026 year. Email erindale.badminton@gmail.com </p>
+                <p>Welcome back! First sessions: </p>
+                <ul>
+                  <li>First Monday at John Fraser SS - Sep 15 6-10pm</li>
+                  <li>First Wednesday at Loyola CSS - Sep 24 8:15-10pm</li>
+                  <li>First Friday at Erindale SS - Sep 19 6-10pm</li>
+                </ul>
               </>
             ) : (
               <div className="overflow-auto md:overflow-visible">
