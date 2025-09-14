@@ -24,7 +24,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
                 </svg>
               </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              Have a good summer EBC members! 
+              First Monday - Sep 15, 6-10pm @ John Fraser SS | First Friday - Sep 19, 6-10pm @ Erindale SS | First Wednesday - Sep 24, 8:15-10pm @ Loyola CSS  
             </p>
           </div>
 
