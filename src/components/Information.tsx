@@ -123,17 +123,6 @@ const Information = () => {
     ></iframe>
   </div>
 
-  {/* Add to Calendar link */}
-  <p className="mt-4 text-white">
-    <a
-      className="hover:text-yellow-700 underline"
-      href="https://calendar.google.com/calendar/embed?src=990b0487b3aa8c1fc0b98bfa9fd0aa9c6fbcce3418f614eb6d9c2bbb40d032dd%40group.calendar.google.com&ctz=America%2FToronto"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Add this calendar to your Google Calendar
-    </a>
-  </p>
 </div>
 
 
