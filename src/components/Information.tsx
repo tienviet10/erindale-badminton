@@ -89,58 +89,66 @@ const Information = () => {
           </ul>
 
 
-
-          
           <div className="mt-12">
-              <h3 className="text-2xl font-bold mb-4 text-text-application-color">
-                Calendar
-              </h3>
-            
-              {/* Responsive Google Calendar Embed */}
-              <div className="calendar-embed">
-                <iframe
-                  src="https://calendar.google.com/calendar/embed?src=990b0487b3aa8c1fc0b98bfa9fd0aa9c6fbcce3418f614eb6d9c2bbb40d032dd%40group.calendar.google.com&ctz=America%2FToronto&showTitle=0&showTabs=0&showPrint=0&showCalendars=0"
-                  frameBorder="0"
-                  scrolling="no"
-                  title="EBC Sessions 2025/2026"
-                ></iframe>
-              </div>
-              
-              
-              <style jsx>{`
-                .calendar-embed {
-                  position: relative;
-                  overflow: hidden;
-                  border-radius: 12px;
-                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-                  /* Default for large screens: 16:9 */
-                  padding-bottom: 56.25%; /* 9/16 = 0.5625 => 56.25% */
-                }
-            
-                .calendar-embed iframe {
-                  position: absolute;
-                  top: 0;
-                  left: 0;
-                  width: 100%;
-                  height: 100%;
-                  border: 0;
-                }
-            
-                /* Mobile: make it taller */
-                @media (max-width: 640px) {
-                  .calendar-embed {
-                    padding-bottom: 140%; /* increase -- more vertical space */
-                  }
-                }
-            
-                /* If you want an intermediate size for small tablets */
-                @media (min-width: 641px) and (max-width: 1023px) {
-                  .calendar-embed {
-                    padding-bottom: 80%; /* somewhat taller than 16:9 */
-                  }
-                }
-              `}</style>          
+            <h3 className="text-2xl font-bold mb-4 text-text-application-color">
+              Calendar
+            </h3>
           
+            <div className="calendar-embed">
+              <iframe
+                src="https://calendar.google.com/calendar/embed?src=990b0487b3aa8c1fc0b98bfa9fd0aa9c6fbcce3418f614eb6d9c2bbb40d032dd%40group.calendar.google.com&ctz=America%2FToronto&showTitle=0&showTabs=0&showPrint=0&showCalendars=0&mode=MONTH"
+                frameBorder="0"
+                scrolling="no"
+                title="EBC Sessions 2025/2026"
+              ></iframe>
+          
+              {/* Dim overlay for Sat/Sun */}
+              <div className="weekend-overlay"></div>
+            </div>
+          
+            <style>{`
+              .calendar-embed {
+                position: relative;
+                overflow: hidden;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                padding-bottom: 80%; /* default 16:9-ish for Month view */
+                height: 0;
+              }
+          
+              .calendar-embed iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+              }
+          
+              /* Dim Sat/Sun columns */
+              .calendar-embed .weekend-overlay {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 28.5%; /* 2 out of 7 columns */
+                height: 100%;
+                background-color: rgba(0,0,0,0.15); /* semi-transparent black overlay */
+                pointer-events: none; /* allow clicks through */
+              }
+          
+              /* Mobile: taller for better readability */
+              @media (max-width: 640px) {
+                .calendar-embed {
+                  padding-bottom: 140%;
+                }
+              }
+          
+              @media (min-width: 641px) and (max-width: 1023px) {
+                .calendar-embed {
+                  padding-bottom: 100%;
+                }
+              }
+            `}</style>
           </div>
 
 
