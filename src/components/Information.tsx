@@ -96,7 +96,7 @@ const Information = () => {
           
             <div className="calendar-embed">
               <iframe
-                src="https://calendar.google.com/calendar/embed?src=990b0487b3aa8c1fc0b98bfa9fd0aa9c6fbcce3418f614eb6d9c2bbb40d032dd%40group.calendar.google.com&ctz=America%2FToronto&showTitle=0&showTabs=0&showPrint=0&showCalendars=0&mode=MONTH"
+                src="https://calendar.google.com/calendar/embed?src=990b0487b3aa8c1fc0b98bfa9fd0aa9c6fbcce3418f614eb6d9c2bbb40d032dd%40group.calendar.google.com&ctz=America%2FToronto&showTitle=0&showTabs=0&showPrint=0&showCalendars=0&wkst=1"
                 frameBorder="0"
                 scrolling="no"
                 title="EBC Sessions 2025/2026"
@@ -123,17 +123,6 @@ const Information = () => {
                 width: 100%;
                 height: 100%;
                 border: 0;
-              }
-          
-              /* Dim Sat/Sun columns */
-              .calendar-embed .weekend-overlay {
-                position: absolute;
-                top: 0;
-                right: 0;
-                width: 28.5%; /* 2 out of 7 columns */
-                height: 100%;
-                background-color: rgba(0,0,0,0.15); /* semi-transparent black overlay */
-                pointer-events: none; /* allow clicks through */
               }
           
               /* Mobile: taller for better readability */
