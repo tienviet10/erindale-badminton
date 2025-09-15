@@ -122,6 +122,44 @@ const Information = () => {
       title="EBC Sessions 2025/2026"
     ></iframe>
   </div>
+  <style jsx>{`
+    .calendar-embed {
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .calendar-embed iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    /* Mobile: taller calendar (4:3 ratio) */
+    @media (max-width: 640px) {
+      .calendar-embed {
+        padding-bottom: 75%; /* 4:3 ratio */
+      }
+    }
+
+    /* Tablet: medium height (16:10 ratio) */
+    @media (min-width: 641px) and (max-width: 1023px) {
+      .calendar-embed {
+        padding-bottom: 62.5%; /* 16:10 ratio */
+      }
+    }
+
+    /* Desktop: default widescreen (16:9 ratio) */
+    @media (min-width: 1024px) {
+      .calendar-embed {
+        padding-bottom: 56.25%; /* 16:9 ratio */
+      }
+    }
+  `}</style>          
 
 </div>
 
