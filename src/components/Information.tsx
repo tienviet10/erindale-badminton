@@ -128,7 +128,7 @@ const Information = () => {
               /* Mobile: taller for better readability */
               @media (max-width: 640px) {
                 .calendar-embed {
-                  padding-bottom: 140%;
+                  padding-bottom: 160%;
                 }
               }
           
