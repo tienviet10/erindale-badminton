@@ -96,7 +96,7 @@ const Information = () => {
           
             <div className="calendar-embed">
               <iframe
-                src="https://calendar.google.com/calendar/embed?src=990b0487b3aa8c1fc0b98bfa9fd0aa9c6fbcce3418f614eb6d9c2bbb40d032dd%40group.calendar.google.com&ctz=America%2FToronto&showTitle=0&showTabs=0&showPrint=0&showCalendars=0&wkst=1"
+                src="https://calendar.google.com/calendar/embed?src=990b0487b3aa8c1fc0b98bfa9fd0aa9c6fbcce3418f614eb6d9c2bbb40d032dd%40group.calendar.google.com&ctz=America%2FToronto&showTitle=0&showPrint=0&showCalendars=0&wkst=1"
                 frameBorder="0"
                 scrolling="no"
                 title="EBC Sessions 2025/2026"
