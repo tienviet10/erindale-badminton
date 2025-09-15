@@ -130,6 +130,8 @@ const Information = () => {
       overflow: hidden;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      /* Default for large screens: 16:9 */
+      padding-bottom: 56.25%; /* 9/16 = 0.5625 => 56.25% */
     }
 
     .calendar-embed iframe {
@@ -141,24 +143,17 @@ const Information = () => {
       border: 0;
     }
 
-    /* Mobile: taller calendar (4:3 ratio) */
+    /* Mobile: make it taller */
     @media (max-width: 640px) {
       .calendar-embed {
-        padding-bottom: 75%; /* 4:3 ratio */
+        padding-bottom: 120%; /* increase -- more vertical space */
       }
     }
 
-    /* Tablet: medium height (16:10 ratio) */
+    /* If you want an intermediate size for small tablets */
     @media (min-width: 641px) and (max-width: 1023px) {
       .calendar-embed {
-        padding-bottom: 62.5%; /* 16:10 ratio */
-      }
-    }
-
-    /* Desktop: default widescreen (16:9 ratio) */
-    @media (min-width: 1024px) {
-      .calendar-embed {
-        padding-bottom: 56.25%; /* 16:9 ratio */
+        padding-bottom: 80%; /* somewhat taller than 16:9 */
       }
     }
   `}</style>          
