@@ -169,7 +169,7 @@ const Information = () => {
 
 
           
-          
+          <br></br>
           <p className="mb-2 font-light text-md">
             {/* * Guests are welcome to join on Wednesday and Friday. Consult
             Pricing section for the fees. Contact us to reserve your guest spot. */}
