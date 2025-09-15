@@ -87,7 +87,6 @@ const Information = () => {
               </span>
             </li>
           </ul>
-          <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FToronto&showPrint=0&showTz=0&title&src=OTkwYjA0ODdiM2FhOGMxZmMwYjk4YmZhOWZkMGFhOWM2ZmJjY2UzNDE4ZjYxNGViNmQ5YzJiYmI0MGQwMzJkZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23009688" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
           <p className="mb-2 font-light text-md">
             {/* * Guests are welcome to join on Wednesday and Friday. Consult
             Pricing section for the fees. Contact us to reserve your guest spot. */}
