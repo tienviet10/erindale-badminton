@@ -129,7 +129,7 @@ const Information = () => {
                 /* Mobile: make it taller */
                 @media (max-width: 640px) {
                   .calendar-embed {
-                    padding-bottom: 120%; /* increase -- more vertical space */
+                    padding-bottom: 140%; /* increase -- more vertical space */
                   }
                 }
             
