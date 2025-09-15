@@ -87,6 +87,60 @@ const Information = () => {
               </span>
             </li>
           </ul>
+
+
+
+          
+          <div className="mt-12">
+  <h3 className="text-2xl font-bold mb-4 text-text-application-color">
+    Calendar
+  </h3>
+
+  {/* Responsive Google Calendar Embed */}
+  <div
+    style={{
+      position: "relative",
+      paddingBottom: "56.25%", // 16:9 aspect ratio
+      height: 0,
+      overflow: "hidden",
+      borderRadius: "12px",
+      boxShadow: "0 4px 12px rgba(0, 0, 0, 0.3)",
+    }}
+  >
+    <iframe
+      src="https://calendar.google.com/calendar/embed?src=990b0487b3aa8c1fc0b98bfa9fd0aa9c6fbcce3418f614eb6d9c2bbb40d032dd%40group.calendar.google.com&ctz=America%2FToronto"
+      style={{
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%",
+        border: 0,
+      }}
+      frameBorder="0"
+      scrolling="no"
+      title="EBC Sessions 2025/2026"
+    ></iframe>
+  </div>
+
+  {/* Add to Calendar link */}
+  <p className="mt-4 text-white">
+    <a
+      className="hover:text-yellow-700 underline"
+      href="https://calendar.google.com/calendar/embed?src=990b0487b3aa8c1fc0b98bfa9fd0aa9c6fbcce3418f614eb6d9c2bbb40d032dd%40group.calendar.google.com&ctz=America%2FToronto"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Add this calendar to your Google Calendar
+    </a>
+  </p>
+</div>
+
+
+
+
+          
+          
           <p className="mb-2 font-light text-md">
             {/* * Guests are welcome to join on Wednesday and Friday. Consult
             Pricing section for the fees. Contact us to reserve your guest spot. */}
