@@ -122,6 +122,8 @@ const Information = () => {
       title="EBC Sessions 2025/2026"
     ></iframe>
   </div>
+  
+  
   <style jsx>{`
     .calendar-embed {
       position: relative;
