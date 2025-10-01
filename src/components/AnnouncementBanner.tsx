@@ -24,7 +24,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
                 </svg>
               </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              First Mon - Sep 15, 6-10pm @ John Fraser SS | First Fri - Sep 19, 6-10pm @ Erindale SS | First Wed - Sep 24, 8:15-10pm @ Loyola CSS  
+              No badminton on Mon Oct 13. Happy Thanksgiving!  
             </p>
           </div>
 
