@@ -40,20 +40,13 @@ const Details = ({ setOpenedModal, from }) => {
           <div className="modal-body relative p-4">
             {from === "navbar" ? (
               <>
-{/*             <p>We run Monday, Wednesday, and Friday excluding any holidays and closures dictated by the Peel and Catholic school boards.</p>
+             <p>We run Monday, Wednesday, and Friday excluding any holidays and closures dictated by the Peel and Catholic school boards.</p>
                 <br></br>
                 <p>Holidays and cancellations: </p>
                 <ul>
-                  <li>Friday, November 1, 2024</li>
-                  <li>Wednesday, October 16, 2024</li>
-                  <li>Monday, October 14, 2024 (Thanksgiving)</li>
-                </ul> */}
-                <p>Welcome back! First sessions: </p>
-                <ul>
-                  <li>First Monday at John Fraser SS - Sep 15 6-10pm</li>
-                  <li>First Wednesday at Loyola CSS - Sep 24 8:15-10pm</li>
-                  <li>First Friday at Erindale SS - Sep 19 6-10pm</li>
-                </ul>
+                  <li>Monday, October 13, 2025 (Thanksgiving)</li>
+                </ul> 
+        
               </>
             ) : (
               <div className="overflow-auto md:overflow-visible">
