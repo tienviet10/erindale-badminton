@@ -24,7 +24,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
                 </svg>
               </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              No badminton on Mon Oct 13. Happy Thanksgiving!  
+              No badminton on Wed Oct 29. Add our calendar to stay on top of all our sessions.
             </p>
           </div>
 
