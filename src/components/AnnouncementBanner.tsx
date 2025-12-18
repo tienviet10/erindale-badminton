@@ -24,7 +24,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
                 </svg>
               </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              Dec 1 session will start at 8pm instead of 6pm. Dec 17 is the last session of the year! Happy Holidays! 
+              Happy Holidays and see you all in the New Year. First session back is Jan 5.
             </p>
           </div>
 
