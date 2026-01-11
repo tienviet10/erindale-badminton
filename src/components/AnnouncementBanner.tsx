@@ -24,7 +24,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
                 </svg>
               </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              Happy Holidays and see you all in the New Year. First session back is Jan 5.
+              No badminton Mon Feb 16 and Wed Feb 18 due to Family Day. 
             </p>
           </div>
 
