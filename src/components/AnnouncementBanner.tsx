@@ -24,7 +24,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
                 </svg>
               </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              No badminton Mon Feb 16 and Wed Feb 18 due to Family Day. 
+              Badminton cancelled Mon Jan 26. No badminton Mon Feb 16 and Wed Feb 18 due to Family Day. 
             </p>
           </div>
 
