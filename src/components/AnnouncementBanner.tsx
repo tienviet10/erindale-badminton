@@ -24,7 +24,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
                 </svg>
               </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              No badminton Mon Feb 16 and Wed Feb 18 due to Family Day. 
+              No badminton Mon Mar 16, Wed Mar 18, Fri Mar 20 due to March Break. Mon Mar 23 (8-10pm + only gyms AB). 
             </p>
           </div>
 
