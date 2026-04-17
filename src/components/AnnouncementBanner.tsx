@@ -24,7 +24,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
                 </svg>
               </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              No badminton Wed Apr 1, Fri Apr 3, Mon Apr 6. Have a good long weekend! 
+              No badminton Wed May 6 and Mon May 18 (Victoria Day)! 
             </p>
           </div>
 
