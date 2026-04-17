@@ -44,6 +44,9 @@ const Details = ({ setOpenedModal, from }) => {
                 <br></br>
                 <p>Holidays and cancellations: </p>
                 <ul>
+                  <li>Wednesday, Jun 3, 2026</li>
+                  <li>Monday, May 18, 2026 (Victoria Day)</li>
+                  <li>Wednesday, May 6, 2026</li>
                   <li>Monday, Apr 6, 2026 (Easter Monday)</li>
                   <li>Friday, Apr 3, 2026 (Good Friday)</li>
                   <li>Wednesday, Apr 1, 2026</li>
