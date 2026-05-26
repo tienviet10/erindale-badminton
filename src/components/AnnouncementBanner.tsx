@@ -24,7 +24,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
                 </svg>
               </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              Fridays start at 8pm (Gym C cancelled due to exams). No badminton Wed May 6 and Mon May 18 (Victoria Day)! 
+              No badminton Wed June 3. Last day of the season is Fri June 5. Have a good summer! 
             </p>
           </div>
 
