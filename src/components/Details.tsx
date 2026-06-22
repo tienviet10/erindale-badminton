@@ -44,18 +44,7 @@ const Details = ({ setOpenedModal, from }) => {
                 <br></br>
                 <p>Holidays and cancellations: </p>
                 <ul>
-                  <li>Wednesday, Jun 3, 2026</li>
-                  <li>Monday, May 18, 2026 (Victoria Day)</li>
-                  <li>Wednesday, May 6, 2026</li>
-                  <li>Monday, Apr 6, 2026 (Easter Monday)</li>
-                  <li>Friday, Apr 3, 2026 (Good Friday)</li>
-                  <li>Wednesday, Apr 1, 2026</li>
-                  <li>Friday, Mar 20, 2026 (March Break)</li>
-                  <li>Wednesday, Mar 18, 2026 (March Break)</li>
-                  <li>Monday, Mar 16, 2026 (March Break)</li>
-                  <li>Wednesday, Feb 18, 2026 </li>
-                  <li>Monday, Feb 16, 2026 (Family Day)</li>
-                  <li>Monday, Jan 26, 2026</li>
+                  <li>None</li>
                 </ul> 
         
               </>
