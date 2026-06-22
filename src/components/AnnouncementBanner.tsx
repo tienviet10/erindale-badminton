@@ -24,7 +24,7 @@ const AnnouncementBanner = ({ setOpenedModal }) => {
                 </svg>
               </span>
             <p className="w-[90%] ml-3 truncate font-medium text-black my-auto text-semibold">
-              No badminton Wed June 3. Last day of the season is Fri June 5. Have a good summer! 
+              No badminton until September - hope you have an amazing summer! 
             </p>
           </div>
 
